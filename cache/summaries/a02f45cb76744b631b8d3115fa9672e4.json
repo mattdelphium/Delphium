@@ -1,0 +1,59 @@
+{
+  "opening": "Queen's Pawn Opening",
+  "key_mistakes": [
+    {
+      "move": "Bg5",
+      "reason": "This move allows Black to gain tempo by attacking the bishop with a pawn, and it also fails to apply pressure on the center.",
+      "better_move": "c4",
+      "type": "strategic",
+      "fen": "rnbqkb1r/pp3ppp/5n2/2pp4/8/5N2/PPP1PPPP/RNBQKB1R w KQkq - 0 6"
+    },
+    {
+      "move": "Nc6",
+      "reason": "Developing the knight to c6 blocks the c-pawn and allows White to gain a strong central and active position.",
+      "better_move": "h6",
+      "type": "strategic",
+      "fen": "rnbqk2r/pp2bppp/5n2/2pp2B1/8/4PN2/PPP2PPP/RN1QKB1R b KQkq - 0 7"
+    },
+    {
+      "move": "Bb5",
+      "reason": "This move does not contribute to central control or development and can be easily refuted by simple development from Black.",
+      "better_move": "c4",
+      "type": "strategic",
+      "fen": "r1bqk2r/pp2bppp/2n2n2/2pp2B1/8/4PN2/PPP2PPP/RN1QKB1R w KQkq - 1 8"
+    },
+    {
+      "move": "O-O",
+      "reason": "Castling into an open line with many attacking pieces is dangerous, allowing White to build a strong attack.",
+      "better_move": "h6",
+      "type": "strategic",
+      "fen": "r1bqk2r/pp2bppp/2n2n2/1Bpp2B1/8/4PN2/PPP2PPP/RN1QK2R b KQkq - 2 8"
+    },
+    {
+      "move": "Ne4",
+      "reason": "The knight move to e4 places it into a vulnerable position and can be easily attacked or exchanged, leading to a loss of tempo.",
+      "better_move": "d4",
+      "type": "strategic",
+      "fen": "r1bq1rk1/pp2bppp/2n2n2/1Bpp2B1/8/2N1PN2/PPP2PPP/R2QK2R b KQ - 4 9"
+    },
+    {
+      "move": "b5",
+      "reason": "This move weakens the queenside unnecessarily and allows White to seize control of the c5 square.",
+      "better_move": "Ne5",
+      "type": "strategic",
+      "fen": "4rk2/6pp/p1n5/2NR4/2B3P1/1P2P3/2P2P2/2K4R b - - 0 25"
+    }
+  ],
+  "themes": [
+    "Central control",
+    "Development",
+    "King safety",
+    "Pawn structure"
+  ],
+  "recommendations": [
+    "Focus on controlling the center with your pawns and pieces.",
+    "Develop your pieces quickly and efficiently, aiming for harmony and activity.",
+    "Ensure king safety before launching an attack.",
+    "Consider pawn structure when making exchanges or pawn moves."
+  ]
+}

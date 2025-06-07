@@ -1,0 +1,65 @@
+{
+  "opening": "Queen's Pawn Opening (1. d4)",
+  "key_mistakes": [
+    {
+      "move": "Be2",
+      "reason": "Allows Black to equalize with active development.",
+      "better_move": "Nc3",
+      "type": "strategic"
+    },
+    {
+      "move": "Nc6",
+      "reason": "Passive development, missing central control.",
+      "better_move": "c5",
+      "type": "strategic"
+    },
+    {
+      "move": "Nbd2",
+      "reason": "Loses tempo; wrong knight development.",
+      "better_move": "Be3",
+      "type": "strategic"
+    },
+    {
+      "move": "Nh5",
+      "reason": "Misplaces the knight, missing central control.",
+      "better_move": "O-O",
+      "type": "strategic"
+    },
+    {
+      "move": "Re1",
+      "reason": "Misses a strong central push.",
+      "better_move": "e5",
+      "type": "strategic"
+    },
+    {
+      "move": "d5",
+      "reason": "Incorrect pawn break, allowing Black to equalize.",
+      "better_move": "e5",
+      "type": "strategic"
+    },
+    {
+      "move": "Kh2",
+      "reason": "Loses control over the position.",
+      "better_move": "Qf6",
+      "type": "strategic"
+    },
+    {
+      "move": "Qf6#",
+      "reason": "Misses the strongest checkmate sequence.",
+      "better_move": "Qxd6#",
+      "type": "tactical"
+    }
+  ],
+  "themes": [
+    "Development and central control",
+    "King safety",
+    "Pawn structure and breaks",
+    "Misplaced pieces"
+  ],
+  "recommendations": [
+    "Focus on central control and development in the opening.",
+    "Avoid unnecessary pawn moves that don't help your development.",
+    "Ensure your pieces are well-coordinated before initiating attacks.",
+    "Be wary of leaving your king exposed, especially in open positions."
+  ]
+}

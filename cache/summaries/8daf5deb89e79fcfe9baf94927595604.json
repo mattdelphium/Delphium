@@ -1,0 +1,87 @@
+{
+  "opening": "French Defense, Advance Variation",
+  "key_mistakes": [
+    {
+      "move": "c6",
+      "reason": "Black neglects the control of the center, allowing White to gain a space advantage.",
+      "better_move": "e5",
+      "type": "strategic",
+      "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1"
+    },
+    {
+      "move": "c5",
+      "reason": "This move prematurely opens the center without completing development.",
+      "better_move": "Bf5",
+      "type": "strategic",
+      "fen": "rnbqkbnr/pp2pppp/2p5/3pP3/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 0 3"
+    },
+    {
+      "move": "c3",
+      "reason": "Passive development, delaying natural knight development.",
+      "better_move": "Nf3",
+      "type": "strategic",
+      "fen": "rnbqkbnr/pp2pppp/8/2ppP3/3P4/8/PPP2PPP/RNBQKBNR w KQkq - 0 4"
+    },
+    {
+      "move": "Qa5",
+      "reason": "Black misplaces the queen, exposing it to potential harassment.",
+      "better_move": "e6",
+      "type": "strategic",
+      "fen": "r1bqkbnr/pp2pppp/2n5/2ppP3/3P4/2P5/PP3PPP/RNBQKBNR b KQkq - 1 5"
+    },
+    {
+      "move": "Bg5",
+      "reason": "This move neglects the opportunity to capture a central pawn.",
+      "better_move": "dxc5",
+      "type": "strategic",
+      "fen": "r1b1kbnr/p3pppp/q1p5/2ppP3/3P4/2P2N2/PP3PPP/RNBQK2R w KQkq - 2 8"
+    },
+    {
+      "move": "c4",
+      "reason": "This move unnecessarily opens the position, leading to a loss of material.",
+      "better_move": "cxd4",
+      "type": "strategic",
+      "fen": "r3kb1r/p3nppp/q1p1p3/3pP1B1/3p4/1PP2Q1P/P2N1PP1/R3K2R w KQkq - 0 13"
+    },
+    {
+      "move": "Nf5",
+      "reason": "This move allows White to gain a significant lead by opening lines.",
+      "better_move": "Ng6",
+      "type": "strategic",
+      "fen": "r3kb1r/p3nppp/q1p1p3/3pP1B1/2Pp4/1P3Q1P/P2N1PP1/R3K2R b KQkq - 0 13"
+    },
+    {
+      "move": "Bb4",
+      "reason": "This move loses tempo as White can easily counter it.",
+      "better_move": "Rc8",
+      "type": "strategic",
+      "fen": "r4rk1/p4ppp/q1p1p3/3pPnB1/2Pp4/1P3Q1P/P2N1PP1/R4RK1 b kq - 2 14"
+    },
+    {
+      "move": "Qxa2",
+      "reason": "Black's queen is misplaced, leading to vulnerabilities.",
+      "better_move": "Kh8",
+      "type": "strategic",
+      "fen": "r4rk1/p4ppp/q1p1p3/3pPnB1/2Pp2Q1/1Pb2N1P/P4PP1/R4RK1 b - - 8 17"
+    },
+    {
+      "move": "gxf6",
+      "reason": "This move opens the king's side, leading to a quick mate.",
+      "better_move": "Rg8",
+      "type": "tactical",
+      "fen": "r4r1k/p4ppp/2p1pB2/3pPN2/1q1p2Q1/2b4P/5PP1/2R2RK1 w - - 0 21"
+    }
+  ],
+  "themes": [
+    "Central control",
+    "Development",
+    "King safety",
+    "Piece activity"
+  ],
+  "recommendations": [
+    "Focus on controlling the center early in the opening.",
+    "Prioritize development of minor pieces before moving the queen.",
+    "Ensure king safety by not opening unnecessary lines.",
+    "Avoid premature pawn moves that open the position without sufficient control."
+  ]
+}

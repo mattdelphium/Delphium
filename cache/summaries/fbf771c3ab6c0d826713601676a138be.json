@@ -1,0 +1,96 @@
+{
+  "opening": "Caro-Kann Defense",
+  "key_mistakes": [
+    {
+      "move": "c6",
+      "reason": "Passive opening choice, giving White an early advantage.",
+      "better_move": "e5",
+      "type": "strategic"
+    },
+    {
+      "move": "c5",
+      "reason": "Misplaced pawn, allowing White to strengthen center.",
+      "better_move": "Bf5",
+      "type": "strategic"
+    },
+    {
+      "move": "Qa5",
+      "reason": "Queen misplacement, not contributing to development.",
+      "better_move": "e6",
+      "type": "strategic"
+    },
+    {
+      "move": "Nc5",
+      "reason": "Allows Black to capture and gain material advantage.",
+      "better_move": "b3",
+      "type": "tactical"
+    },
+    {
+      "move": "O-O",
+      "reason": "Misses the chance to assert control over the center.",
+      "better_move": "h5",
+      "type": "strategic"
+    },
+    {
+      "move": "Rab8",
+      "reason": "Blunder that loses material advantage.",
+      "better_move": "d4",
+      "type": "blunder"
+    },
+    {
+      "move": "Rac1",
+      "reason": "Blunder, failing to pressure the opponent's weaknesses.",
+      "better_move": "Ke3",
+      "type": "blunder"
+    },
+    {
+      "move": "R8b5",
+      "reason": "Misses a tactical opportunity to capture key pawn.",
+      "better_move": "d4",
+      "type": "blunder"
+    },
+    {
+      "move": "h5",
+      "reason": "Weakens pawn structure and loses control.",
+      "better_move": "Ke3",
+      "type": "blunder"
+    },
+    {
+      "move": "Rxg5",
+      "reason": "Loses material and control.",
+      "better_move": "f4",
+      "type": "blunder"
+    },
+    {
+      "move": "Rd2+",
+      "reason": "Allows opponent to regain coordination.",
+      "better_move": "Bg6",
+      "type": "blunder"
+    },
+    {
+      "move": "g6",
+      "reason": "Weakens pawn structure and allows counterplay.",
+      "better_move": "Bg6",
+      "type": "blunder"
+    },
+    {
+      "move": "Kf8",
+      "reason": "Passivity allows opponent to gain initiative.",
+      "better_move": "Rb3",
+      "type": "blunder"
+    }
+  ],
+  "themes": [
+    "Caro-Kann Defense",
+    "Pawn structure",
+    "Material imbalance",
+    "Endgame tactics"
+  ],
+  "recommendations": [
+    "Develop pieces with more activity and purpose in the opening.",
+    "Avoid unnecessary pawn moves that do not contribute to the position.",
+    "Focus on controlling the center and preventing opponent's counterplay.",
+    "Be cautious with material exchanges that could lead to imbalances.",
+    "Improve endgame technique to convert advantages more effectively."
+  ]
+}

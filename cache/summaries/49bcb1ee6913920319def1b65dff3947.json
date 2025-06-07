@@ -1,0 +1,59 @@
+{
+  "opening": "Queen's Gambit (1. d4 d5 2. c4)",
+  "key_mistakes": [
+    {
+      "move": "5. Nc3",
+      "reason": "Develops the knight to a less optimal square early in the game.",
+      "better_move": "e3",
+      "type": "strategic"
+    },
+    {
+      "move": "25. O-O-O",
+      "reason": "Premature castling; leaves the king vulnerable.",
+      "better_move": "e4",
+      "type": "strategic"
+    },
+    {
+      "move": "29. Nxd5",
+      "reason": "Allows for a tactical oversight.",
+      "better_move": "Rc1",
+      "type": "tactical"
+    },
+    {
+      "move": "30. exd5",
+      "reason": "Misses a better capture option that maintains material balance.",
+      "better_move": "cxd5",
+      "type": "tactical"
+    },
+    {
+      "move": "31. g4",
+      "reason": "Weakens the king's position unnecessarily.",
+      "better_move": "Ne5",
+      "type": "strategic"
+    },
+    {
+      "move": "34. Nxf2",
+      "reason": "Sacrifices material advantage.",
+      "better_move": "Qc7",
+      "type": "tactical"
+    },
+    {
+      "move": "35. Qf5",
+      "reason": "Misses a stronger tactical opportunity.",
+      "better_move": "Qc2",
+      "type": "tactical"
+    }
+  ],
+  "themes": [
+    "King safety",
+    "Pawn structure",
+    "Piece activity",
+    "Opening principles"
+  ],
+  "recommendations": [
+    "Focus on maintaining king safety by avoiding unnecessary pawn moves around the king.",
+    "Develop pieces to optimal squares according to opening principles.",
+    "Identify and capitalize on tactical opportunities, especially in the middle game.",
+    "Ensure pawn captures maintain structure and activity, particularly in the center."
+  ]
+}

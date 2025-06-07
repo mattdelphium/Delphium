@@ -1,0 +1,59 @@
+{
+  "opening": "Caro-Kann Defense",
+  "key_mistakes": [
+    {
+      "move": "2. c6",
+      "reason": "Playing c6 in the opening allows White to gain a space advantage and doesn't challenge the center.",
+      "better_move": "2. e5",
+      "type": "strategic"
+    },
+    {
+      "move": "5. Nc3",
+      "reason": "Developing the knight to c3 blocks the c-pawn and doesn't challenge the center immediately.",
+      "better_move": "5. e5",
+      "type": "strategic"
+    },
+    {
+      "move": "13. Bc4",
+      "reason": "The bishop move to c4 lacks purpose and allows Black to develop comfortably.",
+      "better_move": "13. Bd3",
+      "type": "strategic"
+    },
+    {
+      "move": "17. Qd3",
+      "reason": "Queen move to d3 doesn't address the threat of Bg4 pinning the knight.",
+      "better_move": "17. h3",
+      "type": "strategic"
+    },
+    {
+      "move": "30. Bc7",
+      "reason": "Retreating the bishop to c7 is passive and loses control over important squares.",
+      "better_move": "30. Bg6",
+      "type": "strategic"
+    },
+    {
+      "move": "32. Qd6",
+      "reason": "The queen move to d6 allows White to attack with initiative.",
+      "better_move": "32. Re8",
+      "type": "strategic"
+    },
+    {
+      "move": "33. Nf5",
+      "reason": "Moving the knight to f5 doesn't address the threats and allows Black to create a decisive attack.",
+      "better_move": "33. g3",
+      "type": "strategic"
+    }
+  ],
+  "themes": [
+    "Caro-Kann Defense",
+    "Center Control",
+    "Piece Activity",
+    "King Safety"
+  ],
+  "recommendations": [
+    "Focus on controlling the center with your pawns and pieces.",
+    "Develop your pieces to active squares and avoid unnecessary retreats.",
+    "Ensure your king's safety by addressing threats promptly.",
+    "In the Caro-Kann Defense, consider challenging the center early with e5."
+  ]
+}

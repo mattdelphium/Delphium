@@ -1,0 +1,71 @@
+{
+  "opening": "Caro-Kann Defense",
+  "key_mistakes": [
+    {
+      "move": "2. c6",
+      "reason": "Gives White more control of the center, allowing e5 was preferable.",
+      "better_move": "2. e5",
+      "type": "strategic"
+    },
+    {
+      "move": "3. Nf3",
+      "reason": "Misses opportunity to strengthen central control with pawn.",
+      "better_move": "3. d4",
+      "type": "strategic"
+    },
+    {
+      "move": "5. d3",
+      "reason": "Misses developing the knight to a natural square.",
+      "better_move": "5. Nc3",
+      "type": "strategic"
+    },
+    {
+      "move": "15. h3",
+      "reason": "Does not address the threat on the center.",
+      "better_move": "15. Be3",
+      "type": "strategic"
+    },
+    {
+      "move": "19. Be3",
+      "reason": "Allows Black to trade pieces favorably.",
+      "better_move": "19. a4",
+      "type": "strategic"
+    },
+    {
+      "move": "33. a3",
+      "reason": "A passive move when f4 could have been more active.",
+      "better_move": "33. f4",
+      "type": "strategic"
+    },
+    {
+      "move": "41. Nc5",
+      "reason": "Allows tactical opportunities for the opponent.",
+      "better_move": "41. Nb6",
+      "type": "tactical"
+    },
+    {
+      "move": "43. Nd3",
+      "reason": "Blunder that gives the opponent a significant advantage.",
+      "better_move": "43. Na4",
+      "type": "tactical"
+    },
+    {
+      "move": "49. cxb5",
+      "reason": "Blunder that worsens White's position significantly.",
+      "better_move": "49. f4",
+      "type": "tactical"
+    }
+  ],
+  "themes": [
+    "central control",
+    "piece activity",
+    "pawn structure",
+    "tactical awareness"
+  ],
+  "recommendations": [
+    "Focus on maintaining central control, especially in the opening phase.",
+    "Ensure proper piece development before initiating pawn moves.",
+    "Avoid unnecessary pawn moves that do not contribute to central control or piece activity.",
+    "Be cautious about tactical opportunities that could favor the opponent."
+  ]
+}

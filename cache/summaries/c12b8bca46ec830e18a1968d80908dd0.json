@@ -1,0 +1,55 @@
+{
+  "opening": "Reti Opening",
+  "key_mistakes": [
+    {
+      "move": "3. c4",
+      "reason": "Failed to control the center and develop pieces effectively.",
+      "better_move": "d4",
+      "type": "strategic"
+    },
+    {
+      "move": "7. Bb2",
+      "reason": "Lost control of the center and allowed Black to develop with tempo.",
+      "better_move": "g3",
+      "type": "strategic"
+    },
+    {
+      "move": "19. Nd2",
+      "reason": "Missed an opportunity to simplify and improve the pawn structure.",
+      "better_move": "Nxg6",
+      "type": "tactical"
+    },
+    {
+      "move": "39. Qe5",
+      "reason": "Exposed the queen to unnecessary danger, losing tempo.",
+      "better_move": "Qf3",
+      "type": "strategic"
+    },
+    {
+      "move": "55. d4",
+      "reason": "Opened lines for the opponent's pieces without sufficient preparation.",
+      "better_move": "a3",
+      "type": "strategic"
+    },
+    {
+      "move": "83. Kh3",
+      "reason": "Allowed the opponent to gain a decisive attack.",
+      "better_move": "Kf4",
+      "type": "strategic"
+    }
+  ],
+  "themes": [
+    "central control",
+    "piece activity",
+    "pawn structure",
+    "king safety",
+    "development"
+  ],
+  "recommendations": [
+    "Focus on controlling the center early in the game.",
+    "Develop pieces to active squares and avoid moving the same piece multiple times early on.",
+    "Maintain a solid pawn structure and avoid unnecessary pawn moves that weaken your position.",
+    "Ensure your king's safety, especially if the center is open or can be opened.",
+    "Review tactical motifs to improve calculation and avoid missed opportunities."
+  ]
+}

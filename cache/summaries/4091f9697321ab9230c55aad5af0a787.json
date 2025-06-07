@@ -1,0 +1,46 @@
+{
+  "opening": "Queen's Pawn Opening (1. d4)",
+  "key_mistakes": [
+    {
+      "move": "3. Bg5",
+      "reason": "Failed to control the center and develop pieces effectively.",
+      "better_move": "3. c4",
+      "type": "strategic"
+    },
+    {
+      "move": "12. ... f6",
+      "reason": "Weakens the kingside and the control over the e5 square.",
+      "better_move": "12. ... Rg8",
+      "type": "strategic"
+    },
+    {
+      "move": "13. Nf3",
+      "reason": "Missed a tactical opportunity to deliver a check.",
+      "better_move": "13. Qh5+",
+      "type": "tactical"
+    },
+    {
+      "move": "14. ... fxe5",
+      "reason": "Captured a piece leading to a worse position instead of creating counterplay.",
+      "better_move": "14. ... g4",
+      "type": "strategic"
+    },
+    {
+      "move": "16. ... Bg7",
+      "reason": "Did not create immediate threats or counterplay.",
+      "better_move": "16. ... g4",
+      "type": "strategic"
+    }
+  ],
+  "themes": [
+    "Kingside attack",
+    "Central control",
+    "Piece activity"
+  ],
+  "recommendations": [
+    "Focus on controlling the center with pawns and pieces early in the game.",
+    "Be cautious of weakening pawn moves, especially around the king's position.",
+    "Look for tactical opportunities, such as checks, to gain an advantage.",
+    "Develop all pieces efficiently before launching an attack."
+  ]
+}

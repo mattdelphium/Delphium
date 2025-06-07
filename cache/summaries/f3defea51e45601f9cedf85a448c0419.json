@@ -1,0 +1,50 @@
+{
+  "opening": "Queen's Pawn Opening",
+  "key_mistakes": [
+    {
+      "move": "12. dxe4",
+      "reason": "This move allowed White to strengthen their center uncontested, as Black voluntarily exchanged a central pawn without sufficient compensation.",
+      "better_move": "Be6",
+      "type": "strategic",
+      "fen": "rn1qkb1r/pp2pp1p/2p2np1/3p1b2/3PPB2/2NQ1P2/PPP3PP/R3KBNR b KQkq - 0 6"
+    },
+    {
+      "move": "14. Bd7",
+      "reason": "This move blocked Black's queen, reducing coordination and development of pieces.",
+      "better_move": "Be6",
+      "type": "strategic",
+      "fen": "rn1qkb1r/pp2pp1p/2p2np1/5b2/3PpB2/2NQ1P2/PPP3PP/R3KBNR b KQkq - 0 7"
+    },
+    {
+      "move": "15. e5",
+      "reason": "White pushed a pawn that did not create any real threats and exposed the pawn to Black's pieces.",
+      "better_move": "Qd2",
+      "type": "strategic",
+      "fen": "rn1qkb1r/pp1bpp1p/2p2np1/8/3PPB2/2NQ4/PPP3PP/R3KBNR w KQkq - 1 8"
+    },
+    {
+      "move": "20. cxd5",
+      "reason": "This move opened up the c-file for Black's rook, increasing Black's control over the center.",
+      "better_move": "Qxd5",
+      "type": "strategic",
+      "fen": "rn1qkb1r/pp2pp1p/2p3p1/3NPb2/3P1B2/4Q2P/PP6/1K1R3R b k - 0 10"
+    },
+    {
+      "move": "29. c3",
+      "reason": "This blunder weakened White's pawn structure and created unnecessary weaknesses.",
+      "better_move": "Rd2",
+      "type": "strategic",
+      "fen": "3qkb1r/1p2pp1p/p1r3p1/3pPb2/3P1B2/4Q2P/PP2N3/1K1R3R w k - 0 15"
+    }
+  ],
+  "themes": [
+    "central control",
+    "pawn structure",
+    "piece coordination"
+  ],
+  "recommendations": [
+    "Focus on maintaining control of the center early in the game to restrict opponent's pieces.",
+    "Be cautious about pawn moves that create structural weaknesses or expose pawns to attack.",
+    "Prioritize the development and coordination of pieces to ensure they support each other effectively."
+  ]
+}

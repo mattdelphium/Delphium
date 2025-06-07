@@ -1,0 +1,53 @@
+{
+  "opening": "Queen's Pawn Game",
+  "key_mistakes": [
+    {
+      "move": "49. cxb4",
+      "reason": "This move loses significant material advantage and misses an opportunity to improve the position.",
+      "better_move": "Re3",
+      "type": "strategic"
+    },
+    {
+      "move": "51. b3",
+      "reason": "This move weakens the pawn structure and exposes the king to potential threats.",
+      "better_move": "Rf3",
+      "type": "strategic"
+    },
+    {
+      "move": "53. Rc1",
+      "reason": "This move fails to address the immediate threats and leads to a losing position.",
+      "better_move": "a4",
+      "type": "strategic"
+    },
+    {
+      "move": "55. Rc2",
+      "reason": "This move allows the opponent to consolidate their advantage and control the board.",
+      "better_move": "a4",
+      "type": "strategic"
+    },
+    {
+      "move": "57. Qh3",
+      "reason": "This move overlooks a critical defensive resource, leading to a rapid deterioration of the position.",
+      "better_move": "Rd3",
+      "type": "strategic"
+    },
+    {
+      "move": "61. Qxf5+",
+      "reason": "This move loses material and misjudges the tactical situation.",
+      "better_move": "Rd3",
+      "type": "tactical"
+    }
+  ],
+  "themes": [
+    "pawn structure weaknesses",
+    "king safety",
+    "positional play",
+    "material imbalance"
+  ],
+  "recommendations": [
+    "Focus on maintaining a solid pawn structure and avoid weakening your king's safety.",
+    "Improve your tactical awareness to spot potential threats earlier.",
+    "Consider the value of pieces and avoid unnecessary exchanges that can lead to material imbalances.",
+    "Practice positional play to better control the board and limit your opponent's options."
+  ]
+}

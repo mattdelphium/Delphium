@@ -1,0 +1,108 @@
+{
+  "opening": "Caro-Kann Defense",
+  "key_mistakes": [
+    {
+      "move": "c6",
+      "reason": "The move c6 is an inaccuracy because it delays the development of pieces and allows White to control the center with d4 without contest.",
+      "better_move": "e5",
+      "type": "strategic",
+      "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1"
+    },
+    {
+      "move": "c5",
+      "reason": "The move c5 is inaccurate as it does not address the threat posed by White's advanced e5 pawn and misses an opportunity to develop a piece.",
+      "better_move": "Bf5",
+      "type": "strategic",
+      "fen": "rnbqkbnr/pp2pppp/2p5/3pP3/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 0 3"
+    },
+    {
+      "move": "cxd4",
+      "reason": "Capturing on d4 opens the center prematurely and helps White develop their pieces with tempo.",
+      "better_move": "e6",
+      "type": "strategic",
+      "fen": "r1bqkbnr/pp2pppp/2n5/1BppP3/3P4/2P5/PP3PPP/RNBQK1NR b KQkq - 2 5"
+    },
+    {
+      "move": "Qa5+",
+      "reason": "This check with the queen is not effective as it allows White to develop their knight to c3 while forcing a queen move.",
+      "better_move": "Bf5",
+      "type": "strategic",
+      "fen": "r1bqkbnr/pp2pppp/2n5/1B1pP3/3P4/8/PP3PPP/RNBQK1NR b KQkq - 0 6"
+    },
+    {
+      "move": "Bd2",
+      "reason": "Moving the bishop to d2 is a mistake because it blocks the queen's path and does not contribute to piece development.",
+      "better_move": "Nf3",
+      "type": "strategic",
+      "fen": "r1b1kbnr/pp3ppp/2n1p3/qB1pP3/3P4/2N5/PP1B1PPP/R1BQK1NR w KQkq - 0 8"
+    },
+    {
+      "move": "Qc7",
+      "reason": "Playing Qc7 is a mistake because it pins the queen to the b7 pawn and allows White to continue developing with tempo.",
+      "better_move": "Bd7",
+      "type": "strategic",
+      "fen": "r1b1kbnr/pp3ppp/2n1p3/qB1pP3/3P4/2N5/PP1B1PPP/R2QK1NR b KQkq - 1 8"
+    },
+    {
+      "move": "Ne7",
+      "reason": "The move Ne7 is a mistake because it retreats the knight unnecessarily and blocks the coordination of Black's pieces.",
+      "better_move": "Qb6",
+      "type": "strategic",
+      "fen": "r1b1kbnr/ppq2ppp/2n1p3/1B1pP3/3P4/2N2N2/PP1B1PPP/R2QK1NR b KQkq - 2 9"
+    },
+    {
+      "move": "g4",
+      "reason": "This move is a blunder as it weakens the king's side unnecessarily and exposes White to tactical threats.",
+      "better_move": "Rc1",
+      "type": "strategic",
+      "fen": "r1b1kb1r/ppq2ppp/2n1p3/1B1pPn2/3P4/2N2N2/PP1B1PPP/R2Q1RK1 w kq - 6 11"
+    },
+    {
+      "move": "Rc1",
+      "reason": "Playing Rc1 is a blunder because it fails to address the threats in the center and allows Black to strengthen their position.",
+      "better_move": "Bd3",
+      "type": "strategic",
+      "fen": "r1b1kb1r/ppq2ppp/2n1p3/1B1pPn2/3P2P1/2N2N2/PP1B1P1P/R2Q1RK1 w kq - 1 12"
+    },
+    {
+      "move": "Bxc6+",
+      "reason": "Exchanging the bishop for the knight is a mistake because it gives up a strong bishop for a knight that was not posing any immediate threat.",
+      "better_move": "Bd3",
+      "type": "strategic",
+      "fen": "r1b1kb1r/1pq1nppp/p1n1p3/1B1pP3/3P2P1/2N2N2/PP1B1P1P/2RQ1RK1 b kq - 0 13"
+    },
+    {
+      "move": "Qa4",
+      "reason": "This move is a mistake as it places the queen on an ineffective square and does not contribute to any immediate threats.",
+      "better_move": "h4",
+      "type": "strategic",
+      "fen": "r1b1kb1r/1pq2ppp/p1n1p3/3pP3/3P2P1/2N2N2/PP1B1P1P/2RQ1RK1 w kq - 0 14"
+    },
+    {
+      "move": "Nc3",
+      "reason": "Returning the knight to c3 is a blunder as it misses an opportunity to apply pressure on Black's position and allows Black to seize control.",
+      "better_move": "Nd6+",
+      "type": "tactical",
+      "fen": "rq2kb1r/1p1b1ppp/p1n1p3/1N1pP3/Q2P2P1/5N2/PP1B1P1P/2R2RK1 w kq - 4 16"
+    },
+    {
+      "move": "Qb3",
+      "reason": "This move is a blunder because it places the queen on a vulnerable square and exposes White to tactical threats.",
+      "better_move": "Qd1",
+      "type": "strategic",
+      "fen": "rq2kb1r/1p1b1ppp/p3p3/3pn3/Q2P2P1/2N2N2/PP1B1P1P/2R2RK1 w kq - 0 17"
+    }
+  ],
+  "themes": [
+    "piece development",
+    "control of the center",
+    "piece coordination",
+    "king safety"
+  ],
+  "recommendations": [
+    "Focus on developing pieces in the opening to increase control of the center.",
+    "Ensure pieces are coordinated and work together to apply pressure on the opponent.",
+    "Avoid unnecessary pawn moves that weaken the king's position.",
+    "Look for opportunities to create threats while keeping your own position solid."
+  ]
+}

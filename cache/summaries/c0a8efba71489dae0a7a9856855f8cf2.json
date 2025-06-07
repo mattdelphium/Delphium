@@ -1,0 +1,51 @@
+{
+  "opening": "Queen's Pawn Opening",
+  "key_mistakes": [
+    {
+      "move": "c6",
+      "reason": "c6 is a passive move that does not contest the center and allows White to freely build a strong pawn center.",
+      "better_move": "d5",
+      "type": "strategic",
+      "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1"
+    },
+    {
+      "move": "Be7",
+      "reason": "Be7 is a passive move that does not exert pressure on White's center. It also blocks the e-file, hindering the development of Black's pieces.",
+      "better_move": "Bb4",
+      "type": "strategic",
+      "fen": "rn1qkb1r/pp3ppp/4pn2/3p1b2/3P1B2/2N1PN2/PP3PPP/R2QKB1R b KQkq - 1 7"
+    },
+    {
+      "move": "b6",
+      "reason": "b6 weakens the queen's side and allows White to gain a tempo by attacking the b6 pawn.",
+      "better_move": "Qc8",
+      "type": "strategic",
+      "fen": "rn1qk2r/pp2bppp/Bp2pn2/3p1b2/3P1B2/1QN1PN2/PP3PPP/R3K2R b KQkq - 3 8"
+    },
+    {
+      "move": "Ba6",
+      "reason": "Ba6 allows White to capture the bishop, giving up the bishop pair and weakening the control over the dark squares.",
+      "better_move": "Ne5",
+      "type": "strategic",
+      "fen": "r2qk2r/p2nbppp/1p2pn2/1B1p1b2/3P1B2/1QN1PN2/PP3PPP/R3K2R b KQkq - 2 10"
+    },
+    {
+      "move": "Kg4",
+      "reason": "Kg4 exposes the king to potential attacks and checks, leading to a vulnerable position.",
+      "better_move": "Ke5",
+      "type": "strategic",
+      "fen": "8/8/8/pB1n1k2/8/6R1/6P1/6K1 b - - 7 45"
+    }
+  ],
+  "themes": [
+    "Center control",
+    "King safety",
+    "Piece activity"
+  ],
+  "recommendations": [
+    "Focus on controlling the center with pawns and pieces.",
+    "Prioritize king safety, especially in the endgame.",
+    "Develop pieces to active squares to increase their scope and influence.",
+    "Avoid unnecessary pawn moves that create weaknesses."
+  ]
+}

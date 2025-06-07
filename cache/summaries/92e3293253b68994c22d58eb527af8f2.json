@@ -1,0 +1,66 @@
+{
+  "opening": "Caro-Kann Defense",
+  "key_mistakes": [
+    {
+      "move": "2... c6",
+      "reason": "This move is a passive choice in the opening, allowing White to establish a strong center with d4. Playing e5 would contest the center more actively.",
+      "better_move": "e5",
+      "type": "strategic",
+      "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1"
+    },
+    {
+      "move": "12... e6",
+      "reason": "Missing a tactical opportunity to gain an advantage with a check.",
+      "better_move": "Qb6+",
+      "type": "tactical",
+      "fen": "r2qkbnr/pp2pppp/2n5/1B1p4/5Pb1/5N2/PPPP2PP/RNBQ1RK1 b kq - 5 6"
+    },
+    {
+      "move": "23. Bg5",
+      "reason": "This move allows Black to consolidate and develop without pressure. Capturing the Knight on c6 would have doubled Black's pawns and weakened their position.",
+      "better_move": "Bxc6",
+      "type": "strategic",
+      "fen": "r2q1rk1/pp4pp/2nbpn2/1B1p4/3P4/3Q1R2/PPP3PP/RNB3K1 w - - 0 12"
+    },
+    {
+      "move": "24... Qb6",
+      "reason": "Ignoring a tactical opportunity to harass White's king position.",
+      "better_move": "Bxh2+",
+      "type": "tactical",
+      "fen": "r2q1rk1/pp4pp/2nbpn2/1B1p2B1/3P4/3Q1R2/PPP3PP/RN4K1 b - - 1 12"
+    },
+    {
+      "move": "31. b3",
+      "reason": "This move weakens the pawn structure and doesn't contribute to piece activity. Developing the knight would increase control over the center and connect the rooks.",
+      "better_move": "Nd2",
+      "type": "strategic",
+      "fen": "r5k1/p6p/1qnbpp2/1B1p4/3P4/3Q1R2/PPP3PP/RN4K1 w - - 0 16"
+    },
+    {
+      "move": "57. Rg2",
+      "reason": "This move allows Black to regain control over the position and misses a chance to put pressure on Black's king.",
+      "better_move": "Re1",
+      "type": "strategic",
+      "fen": "5k1r/p7/2p2b1p/3p1p1Q/3P1q2/1PP2N1P/P7/6RK w - - 1 29"
+    },
+    {
+      "move": "79. a4",
+      "reason": "This move unnecessarily advances the pawn, missing a chance to put the king in check and improve the knight position.",
+      "better_move": "Ne2+",
+      "type": "tactical",
+      "fen": "8/p7/2p5/3p4/3Ppk2/1PP4P/P4K2/6N1 w - - 4 40"
+    }
+  ],
+  "themes": [
+    "pawn structure weaknesses",
+    "missed tactical opportunities",
+    "central control",
+    "king safety"
+  ],
+  "recommendations": [
+    "In the Caro-Kann Defense, aim to control the center with pawn moves and piece development.",
+    "Look for tactical opportunities, especially when the opponent's king is exposed.",
+    "Maintain a solid pawn structure to avoid creating weaknesses.",
+    "Develop your pieces actively and ensure they coordinate well, especially in the middle game."
+  ]
+}

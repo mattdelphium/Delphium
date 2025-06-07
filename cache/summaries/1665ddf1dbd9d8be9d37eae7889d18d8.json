@@ -1,0 +1,131 @@
+{
+  "opening": "Queen's Pawn Opening",
+  "key_mistakes": [
+    {
+      "move": "Bf4",
+      "reason": "Develops the bishop but misses the opportunity to control the center more aggressively.",
+      "better_move": "c4",
+      "type": "strategic"
+    },
+    {
+      "move": "cxd4",
+      "reason": "Gives up central control too early.",
+      "better_move": "Nh5",
+      "type": "strategic"
+    },
+    {
+      "move": "O-O",
+      "reason": "Misses an opportunity to recapture material.",
+      "better_move": "exd4",
+      "type": "tactical"
+    },
+    {
+      "move": "dxe3",
+      "reason": "Opens up the position unfavorably.",
+      "better_move": "Nh5",
+      "type": "strategic"
+    },
+    {
+      "move": "Qc7",
+      "reason": "Loses time with the queen.",
+      "better_move": "Qd8",
+      "type": "strategic"
+    },
+    {
+      "move": "Nc3",
+      "reason": "Weakens the control over the d4 square.",
+      "better_move": "c4",
+      "type": "strategic"
+    },
+    {
+      "move": "a6",
+      "reason": "Passive move that doesn't address the center.",
+      "better_move": "e5",
+      "type": "strategic"
+    },
+    {
+      "move": "Ne2",
+      "reason": "Retreats the knight unnecessarily.",
+      "better_move": "Na4",
+      "type": "strategic"
+    },
+    {
+      "move": "Ne1",
+      "reason": "Loses control of key squares.",
+      "better_move": "c4",
+      "type": "strategic"
+    },
+    {
+      "move": "h6",
+      "reason": "Weakens the kingside unnecessarily.",
+      "better_move": "e4",
+      "type": "strategic"
+    },
+    {
+      "move": "c4",
+      "reason": "Weakens the d4 pawn.",
+      "better_move": "Ng3",
+      "type": "strategic"
+    },
+    {
+      "move": "Bd6",
+      "reason": "Misplaces the bishop.",
+      "better_move": "e4",
+      "type": "strategic"
+    },
+    {
+      "move": "Qc1",
+      "reason": "Loses tempo.",
+      "better_move": "f3",
+      "type": "strategic"
+    },
+    {
+      "move": "Bb1",
+      "reason": "Retreats the bishop unnecessarily.",
+      "better_move": "Nxd4",
+      "type": "strategic"
+    },
+    {
+      "move": "Qa5",
+      "reason": "Misses a more forcing continuation.",
+      "better_move": "Qc5+",
+      "type": "tactical"
+    },
+    {
+      "move": "Qe3",
+      "reason": "Exposes the queen to potential attacks.",
+      "better_move": "b4",
+      "type": "tactical"
+    },
+    {
+      "move": "Rd1+",
+      "reason": "Forcing move that doesn't improve the position.",
+      "better_move": "Qd4+",
+      "type": "tactical"
+    },
+    {
+      "move": "Qd2",
+      "reason": "Does not create threats or improve position.",
+      "better_move": "Be4",
+      "type": "strategic"
+    },
+    {
+      "move": "Qd7+",
+      "reason": "Misplaced check that does not improve position.",
+      "better_move": "Qb4+",
+      "type": "tactical"
+    }
+  ],
+  "themes": [
+    "Opening principles",
+    "Central control",
+    "Piece activity",
+    "King safety"
+  ],
+  "recommendations": [
+    "Focus on controlling the center early in the game.",
+    "Develop pieces with threats and improve their positions actively.",
+    "Avoid unnecessary pawn moves that weaken your structure.",
+    "Ensure your moves align with an overarching strategic plan."
+  ]
+}

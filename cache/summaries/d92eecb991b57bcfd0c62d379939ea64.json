@@ -1,0 +1,97 @@
+{
+  "opening": "Caro-Kann Defense",
+  "key_mistakes": [
+    {
+      "move": "2. c6",
+      "reason": "Missed opportunity to control the center and develop pieces efficiently.",
+      "better_move": "2. e5",
+      "type": "strategic"
+    },
+    {
+      "move": "3. Nf3",
+      "reason": "Delayed central pawn advancement, leading to passive development.",
+      "better_move": "3. d4",
+      "type": "strategic"
+    },
+    {
+      "move": "5. d3",
+      "reason": "Passive pawn move, hindering development.",
+      "better_move": "5. Nc3",
+      "type": "strategic"
+    },
+    {
+      "move": "15. Bg5",
+      "reason": "Misplaced bishop, missing better development.",
+      "better_move": "15. Be3",
+      "type": "strategic"
+    },
+    {
+      "move": "17. Bxe7",
+      "reason": "Unnecessary exchange of pieces, reducing control over the center.",
+      "better_move": "17. Be3",
+      "type": "strategic"
+    },
+    {
+      "move": "23. Qg4",
+      "reason": "Exposed queen to unnecessary risks, losing tempo.",
+      "better_move": "23. Qf1",
+      "type": "tactical"
+    },
+    {
+      "move": "25. O-O",
+      "reason": "Castling into an unsafe position.",
+      "better_move": "25. N4f3",
+      "type": "strategic"
+    },
+    {
+      "move": "43. Rxe7",
+      "reason": "Blundered an exchange, leading to material disadvantage.",
+      "better_move": "43. Nd4",
+      "type": "tactical"
+    },
+    {
+      "move": "45. Rc1",
+      "reason": "Failed to address threats and improve position.",
+      "better_move": "45. f5",
+      "type": "strategic"
+    },
+    {
+      "move": "47. Qf2",
+      "reason": "Blocked the king's escape, leading to a vulnerable position.",
+      "better_move": "47. Kh1",
+      "type": "strategic"
+    },
+    {
+      "move": "50. Rfb8",
+      "reason": "Missed opportunity to pressure the opponent's position.",
+      "better_move": "50. Nc4",
+      "type": "strategic"
+    },
+    {
+      "move": "51. f5",
+      "reason": "Created weaknesses in pawn structure and opened lines for the opponent.",
+      "better_move": "51. h3",
+      "type": "strategic"
+    },
+    {
+      "move": "53. Qxf5",
+      "reason": "Exchanged into a lost position, increasing the material deficit.",
+      "better_move": "53. Qe2",
+      "type": "strategic"
+    }
+  ],
+  "themes": [
+    "Caro-Kann Defense",
+    "Central Control",
+    "Piece Development",
+    "King Safety",
+    "Exchange Sacrifice"
+  ],
+  "recommendations": [
+    "Focus on controlling the center early in the game to improve piece activity.",
+    "Develop pieces actively and avoid passive pawn moves.",
+    "Be cautious with opening lines that expose the king to potential attacks.",
+    "Consider the implications of exchanging pieces, especially when it leads to material imbalance.",
+    "Maintain flexibility in position and avoid committing to strategies that weaken your structure."
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "opening": "Queen's Gambit Declined",
+  "key_mistakes": [
+    {
+      "move": "c5",
+      "reason": "Allows White to gain control of the center.",
+      "better_move": "d5",
+      "type": "strategic"
+    },
+    {
+      "move": "Qa5",
+      "reason": "Exposes the queen early without gaining sufficient advantage.",
+      "better_move": "e6",
+      "type": "strategic"
+    },
+    {
+      "move": "Qb6",
+      "reason": "Misplaces the queen, allowing White to gain a tempo.",
+      "better_move": "d6",
+      "type": "strategic"
+    },
+    {
+      "move": "Rb1",
+      "reason": "Misses an opportunity to strengthen control over the center.",
+      "better_move": "e4",
+      "type": "strategic"
+    },
+    {
+      "move": "g6",
+      "reason": "Weakens the pawn structure and does not help develop pieces.",
+      "better_move": "d6",
+      "type": "strategic"
+    },
+    {
+      "move": "Bg7",
+      "reason": "Allows White to build a strong pawn center.",
+      "better_move": "d6",
+      "type": "strategic"
+    },
+    {
+      "move": "Bc4",
+      "reason": "Misses a chance to push for an advantageous pawn structure.",
+      "better_move": "e5",
+      "type": "strategic"
+    },
+    {
+      "move": "Nge2",
+      "reason": "Misplaces the knight without a clear plan.",
+      "better_move": "Nf3",
+      "type": "strategic"
+    },
+    {
+      "move": "O-O",
+      "reason": "Allows Black to gain initiative on the kingside.",
+      "better_move": "f3",
+      "type": "strategic"
+    },
+    {
+      "move": "Bb5+",
+      "reason": "Forces a trade without gaining much positional advantage.",
+      "better_move": "h3",
+      "type": "strategic"
+    },
+    {
+      "move": "Bxd7+",
+      "reason": "Exchanges an active bishop for a passive piece.",
+      "better_move": "f3",
+      "type": "strategic"
+    },
+    {
+      "move": "Re1",
+      "reason": "Misplaces the rook, missing more active possibilities.",
+      "better_move": "Bh6",
+      "type": "strategic"
+    },
+    {
+      "move": "Nd5",
+      "reason": "Misses a chance to consolidate position and strengthen the center.",
+      "better_move": "Ne2",
+      "type": "strategic"
+    },
+    {
+      "move": "Rxd6",
+      "reason": "Sacrifices material without sufficient compensation.",
+      "better_move": "g4",
+      "type": "tactical"
+    },
+    {
+      "move": "Kf2",
+      "reason": "Exposes the king unnecessarily.",
+      "better_move": "R6d2",
+      "type": "strategic"
+    },
+    {
+      "move": "Ra2+",
+      "reason": "Loses initiative and misses a winning move.",
+      "better_move": "Kg5",
+      "type": "tactical"
+    }
+  ],
+  "themes": [
+    "central control",
+    "king safety",
+    "pawn structure",
+    "piece activity",
+    "open files"
+  ],
+  "recommendations": [
+    "Focus on controlling the center with your pawns early in the game.",
+    "Avoid unnecessary piece trades that weaken your position.",
+    "Ensure your king's safety, especially when the position opens up.",
+    "Develop pieces to active squares rather than moving them multiple times early.",
+    "Be cautious with your queen's early movements to avoid losing tempo."
+  ]
+}

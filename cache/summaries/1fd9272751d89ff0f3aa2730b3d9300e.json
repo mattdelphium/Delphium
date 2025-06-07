@@ -1,0 +1,101 @@
+{
+  "opening": "King's Fianchetto Opening",
+  "key_mistakes": [
+    {
+      "move": "2. c6",
+      "reason": "Lack of central control",
+      "better_move": "e5",
+      "type": "strategic"
+    },
+    {
+      "move": "7. d3",
+      "reason": "Limits center influence",
+      "better_move": "c4",
+      "type": "strategic"
+    },
+    {
+      "move": "12. Qb6",
+      "reason": "Loss of tempo and exposes the queen",
+      "better_move": "Qc8",
+      "type": "strategic"
+    },
+    {
+      "move": "13. Qxb6",
+      "reason": "Misses development advantage",
+      "better_move": "Be3",
+      "type": "strategic"
+    },
+    {
+      "move": "29. b3",
+      "reason": "Severe weakening of pawn structure",
+      "better_move": "Nd2",
+      "type": "strategic"
+    },
+    {
+      "move": "32. Kd7",
+      "reason": "King in a dangerous position",
+      "better_move": "g5",
+      "type": "strategic"
+    },
+    {
+      "move": "33. Rh1",
+      "reason": "Inactivity and misplacement of rook",
+      "better_move": "Nd2",
+      "type": "strategic"
+    },
+    {
+      "move": "49. Kg1",
+      "reason": "Vulnerable king position",
+      "better_move": "Kf3",
+      "type": "strategic"
+    },
+    {
+      "move": "53. Bf3",
+      "reason": "Loses control of key squares",
+      "better_move": "d4",
+      "type": "strategic"
+    },
+    {
+      "move": "63. Kg3",
+      "reason": "Exposes king to potential checks",
+      "better_move": "e3",
+      "type": "strategic"
+    },
+    {
+      "move": "65. Bh3",
+      "reason": "Misplacement of bishop",
+      "better_move": "Kg2",
+      "type": "strategic"
+    },
+    {
+      "move": "77. fxg5",
+      "reason": "Weakens king's defense",
+      "better_move": "Bxf5",
+      "type": "tactical"
+    },
+    {
+      "move": "79. Kf4",
+      "reason": "King exposed to open lines",
+      "better_move": "b4+",
+      "type": "tactical"
+    },
+    {
+      "move": "81. d5",
+      "reason": "Loses a pawn without compensation",
+      "better_move": "Kg3",
+      "type": "strategic"
+    }
+  ],
+  "themes": [
+    "King safety",
+    "Central control",
+    "Piece activity",
+    "Pawn structure"
+  ],
+  "recommendations": [
+    "Focus on controlling the center with pawns and pieces early in the game.",
+    "Avoid unnecessary pawn moves that weaken your structure without gaining compensation.",
+    "Ensure your king's safety by castling early and avoiding exposure to enemy pieces.",
+    "Develop pieces to active squares promptly to maintain momentum."
+  ]
+}

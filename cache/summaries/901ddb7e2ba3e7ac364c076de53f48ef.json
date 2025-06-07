@@ -1,0 +1,58 @@
+{
+  "opening": "Queen's Pawn Opening",
+  "key_mistakes": [
+    {
+      "move": "Nf3",
+      "reason": "Missed opportunity to strengthen control over the center",
+      "better_move": "c4",
+      "type": "strategic"
+    },
+    {
+      "move": "Bd3",
+      "reason": "Blocks the d-pawn and decreases pressure on the center",
+      "better_move": "c4",
+      "type": "strategic"
+    },
+    {
+      "move": "c3",
+      "reason": "Passive move, delaying kingside development and castling",
+      "better_move": "O-O",
+      "type": "strategic"
+    },
+    {
+      "move": "exd5",
+      "reason": "Allows opponent to recapture with a knight, missing an opportunity to advance the pawn",
+      "better_move": "e5",
+      "type": "strategic"
+    },
+    {
+      "move": "Rxe4",
+      "reason": "Unnecessary exchange that loses material advantage",
+      "better_move": "a4",
+      "type": "tactical"
+    },
+    {
+      "move": "Ke2",
+      "reason": "Misses the chance to block the a-pawn and create threats",
+      "better_move": "c4",
+      "type": "strategic"
+    },
+    {
+      "move": "g3",
+      "reason": "Doesn't address the advancing a-pawn",
+      "better_move": "d5",
+      "type": "strategic"
+    }
+  ],
+  "themes": [
+    "Control of the center",
+    "Development and piece activity",
+    "Pawn structure"
+  ],
+  "recommendations": [
+    "Focus on controlling the center with pawns and pieces early in the game.",
+    "Prioritize development and king safety by castling early.",
+    "Avoid unnecessary exchanges that weaken your position and lose material.",
+    "Consider pawn breaks that open up lines for your pieces and create threats."
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "opening": "Queen's Pawn Opening",
+  "key_mistakes": [
+    {
+      "move": "Ne5",
+      "reason": "Allows tactical opportunities for the opponent",
+      "better_move": "h3",
+      "type": "strategic"
+    },
+    {
+      "move": "cxd4",
+      "reason": "Loses control of the center and allows opponent to strengthen position",
+      "better_move": "Be8",
+      "type": "strategic"
+    },
+    {
+      "move": "Rc8",
+      "reason": "Fails to address the opponent's threats effectively",
+      "better_move": "Ne8",
+      "type": "strategic"
+    },
+    {
+      "move": "Re8",
+      "reason": "Does not improve position or address threats",
+      "better_move": "Ne8",
+      "type": "strategic"
+    },
+    {
+      "move": "Nh5",
+      "reason": "Significant tactical blunder, losing material",
+      "better_move": "g6",
+      "type": "tactical"
+    },
+    {
+      "move": "Bg3",
+      "reason": "Misses a winning combination",
+      "better_move": "Bxh7+",
+      "type": "tactical"
+    },
+    {
+      "move": "Nxg3",
+      "reason": "Accepts a losing position",
+      "better_move": "g6",
+      "type": "tactical"
+    },
+    {
+      "move": "Bh4",
+      "reason": "Doesn't address the opponent's threats properly",
+      "better_move": "g6",
+      "type": "strategic"
+    },
+    {
+      "move": "h6",
+      "reason": "Doesn't protect key squares",
+      "better_move": "g6",
+      "type": "strategic"
+    },
+    {
+      "move": "Qg4",
+      "reason": "Misses better positional play",
+      "better_move": "Qh5",
+      "type": "strategic"
+    },
+    {
+      "move": "f6",
+      "reason": "Weakens pawn structure and king's safety",
+      "better_move": "f5",
+      "type": "strategic"
+    },
+    {
+      "move": "Rg3",
+      "reason": "Misses a better tactical opportunity",
+      "better_move": "Qh5",
+      "type": "tactical"
+    },
+    {
+      "move": "fxe5",
+      "reason": "Creates weaknesses and allows opponent's threats",
+      "better_move": "Rf8",
+      "type": "strategic"
+    },
+    {
+      "move": "Qe7",
+      "reason": "Blunders material",
+      "better_move": "Rf8",
+      "type": "tactical"
+    },
+    {
+      "move": "Bxe5",
+      "reason": "Overlooks defensive resources",
+      "better_move": "Kf8",
+      "type": "strategic"
+    },
+    {
+      "move": "Bb5",
+      "reason": "Significant blunder leading to a losing position",
+      "better_move": "Qf8",
+      "type": "tactical"
+    }
+  ],
+  "themes": [
+    "Control of the center",
+    "Pawn structure",
+    "King safety",
+    "Tactical blunders",
+    "Development of pieces"
+  ],
+  "recommendations": [
+    "Focus on developing pieces towards the center early in the game.",
+    "Avoid unnecessary pawn moves that weaken your king's safety.",
+    "Look for tactical opportunities and threats in each position.",
+    "Consider the opponent's threats and play defensively when needed.",
+    "Prioritize maintaining a strong pawn structure."
+  ]
+}

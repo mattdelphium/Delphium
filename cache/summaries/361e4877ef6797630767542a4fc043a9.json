@@ -1,0 +1,59 @@
+{
+  "opening": "Queen's Pawn Opening",
+  "key_mistakes": [
+    {
+      "move": "Bf4",
+      "reason": "Developing the bishop to an ineffective square, missing the opportunity to support the center.",
+      "better_move": "e4",
+      "type": "strategic"
+    },
+    {
+      "move": "Neg5",
+      "reason": "Exposing the knight to unnecessary danger without a concrete plan.",
+      "better_move": "Rd2",
+      "type": "tactical"
+    },
+    {
+      "move": "Rd4",
+      "reason": "Allows the opponent to gain tempo and control the center.",
+      "better_move": "a3",
+      "type": "strategic"
+    },
+    {
+      "move": "Rxe4",
+      "reason": "Blunder due to miscalculation, losing material.",
+      "better_move": "Rxd5",
+      "type": "tactical"
+    },
+    {
+      "move": "Nc6",
+      "reason": "Blunder leading to losing control over the position.",
+      "better_move": "Nd7",
+      "type": "strategic"
+    },
+    {
+      "move": "Ke7",
+      "reason": "Moving the king away from the center unnecessarily.",
+      "better_move": "d7",
+      "type": "strategic"
+    },
+    {
+      "move": "d5",
+      "reason": "Advancing the pawn too early, losing control of the center.",
+      "better_move": "Ke4",
+      "type": "strategic"
+    }
+  ],
+  "themes": [
+    "Control of the center",
+    "Strategic pawn advances",
+    "King safety in endgame",
+    "Effective piece development"
+  ],
+  "recommendations": [
+    "Focus on maintaining central control throughout the game.",
+    "Avoid unnecessary pawn moves that weaken your structure.",
+    "Ensure effective development of all pieces before launching attacks.",
+    "In endgames, prioritize king activity and pawn promotion potential."
+  ]
+}

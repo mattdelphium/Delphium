@@ -1,0 +1,95 @@
+{
+  "opening": "Caro-Kann Defense",
+  "key_mistakes": [
+    {
+      "move": "2. c6",
+      "reason": "Does not challenge the center effectively.",
+      "better_move": "e5",
+      "type": "strategic"
+    },
+    {
+      "move": "6. c5",
+      "reason": "Allows White too much central control.",
+      "better_move": "Bf5",
+      "type": "strategic"
+    },
+    {
+      "move": "7. c3",
+      "reason": "Misses better development opportunities.",
+      "better_move": "Nf3",
+      "type": "strategic"
+    },
+    {
+      "move": "13. Nd2",
+      "reason": "Misses the chance to capture a central pawn.",
+      "better_move": "dxc5",
+      "type": "tactical"
+    },
+    {
+      "move": "15. Nb3",
+      "reason": "Loses the opportunity to open the center.",
+      "better_move": "dxc5",
+      "type": "tactical"
+    },
+    {
+      "move": "18. Bf5",
+      "reason": "Overextends the bishop without support.",
+      "better_move": "e6",
+      "type": "strategic"
+    },
+    {
+      "move": "19. Ne2",
+      "reason": "Fails to develop the knight to a more active square.",
+      "better_move": "Nc5",
+      "type": "strategic"
+    },
+    {
+      "move": "20. Bd3",
+      "reason": "Allows Black to capture a crucial pawn.",
+      "better_move": "e6",
+      "type": "strategic"
+    },
+    {
+      "move": "21. Nc5",
+      "reason": "Misses a more active knight move.",
+      "better_move": "Nf4",
+      "type": "strategic"
+    },
+    {
+      "move": "25. Nc7+",
+      "reason": "Doesn't prioritize capturing the bishop.",
+      "better_move": "Kxd1",
+      "type": "tactical"
+    },
+    {
+      "move": "28. Ba4",
+      "reason": "Moves the bishop to a less effective square.",
+      "better_move": "Bh5",
+      "type": "strategic"
+    },
+    {
+      "move": "29. Bf4",
+      "reason": "Misses a check that could have gained tempo.",
+      "better_move": "e6+",
+      "type": "tactical"
+    },
+    {
+      "move": "32. fxe6",
+      "reason": "Loses material unnecessarily.",
+      "better_move": "Kxe6",
+      "type": "tactical"
+    }
+  ],
+  "themes": [
+    "Central control",
+    "Development",
+    "Pawn structure",
+    "Material balance"
+  ],
+  "recommendations": [
+    "Focus on controlling the center early in the game.",
+    "Develop pieces actively and efficiently.",
+    "Avoid unnecessary pawn moves that weaken your structure.",
+    "Look for tactical opportunities to capture material."
+  ]
+}

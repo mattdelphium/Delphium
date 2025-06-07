@@ -1,0 +1,63 @@
+{
+  "opening": "Queen's Pawn Opening",
+  "key_mistakes": [
+    {
+      "move": "3. Nf3",
+      "reason": "Misses the opportunity to control the center more aggressively.",
+      "better_move": "3. c4",
+      "type": "strategic"
+    },
+    {
+      "move": "5. Bf4",
+      "reason": "Allows Black to equalize easily.",
+      "better_move": "5. c4",
+      "type": "strategic"
+    },
+    {
+      "move": "13. Nxe4",
+      "reason": "Gives away central control and creates weaknesses.",
+      "better_move": "13. Bxe4",
+      "type": "tactical"
+    },
+    {
+      "move": "15. Bxe4",
+      "reason": "Loses material without gaining compensation.",
+      "better_move": "15. Ne5",
+      "type": "tactical"
+    },
+    {
+      "move": "17. Ne5",
+      "reason": "Sacrifices a knight without clear compensation.",
+      "better_move": "17. Nd2",
+      "type": "strategic"
+    },
+    {
+      "move": "21. f3",
+      "reason": "Weakens the kingside and creates tactical vulnerabilities.",
+      "better_move": "21. Qh5",
+      "type": "strategic"
+    },
+    {
+      "move": "27. Rg1",
+      "reason": "Misses a tactical opportunity.",
+      "better_move": "27. Nxf7",
+      "type": "tactical"
+    },
+    {
+      "move": "45. Bd6+",
+      "reason": "Blunders a strong position for a worse endgame.",
+      "better_move": "45. Bxf6",
+      "type": "tactical"
+    }
+  ],
+  "themes": [
+    "Central control",
+    "Developing pieces",
+    "Tactical awareness"
+  ],
+  "recommendations": [
+    "Focus on controlling the center with pawns early in the game.",
+    "Prioritize piece development and coordination.",
+    "Be vigilant about tactical threats and opportunities."
+  ]
+}

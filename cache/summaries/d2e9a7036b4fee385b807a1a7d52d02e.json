@@ -1,0 +1,73 @@
+{
+  "opening": "Caro-Kann Defense",
+  "key_mistakes": [
+    {
+      "move": "c6",
+      "reason": "This move is a passive response to 1.e4, allowing White to easily occupy the center with 2.d4.",
+      "better_move": "e5",
+      "type": "strategic",
+      "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1"
+    },
+    {
+      "move": "Nc3",
+      "reason": "This move blocks the c-pawn, hindering development and potential support for the center.",
+      "better_move": "e5",
+      "type": "strategic",
+      "fen": "rnbqkbnr/pp2pppp/2p5/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3"
+    },
+    {
+      "move": "Bg5",
+      "reason": "This move allows Black to gain a tempo with h6 and potentially trap the bishop.",
+      "better_move": "Nge2",
+      "type": "strategic",
+      "fen": "rnbqkb1r/pp2pppp/2p2n2/8/2BPp3/2N5/PPP2PPP/R1BQK1NR w KQkq - 2 5"
+    },
+    {
+      "move": "e6",
+      "reason": "This move is too passive, allowing White to maintain pressure with active pieces.",
+      "better_move": "b5",
+      "type": "strategic",
+      "fen": "rnbqkb1r/pp2pppp/2p2n2/6B1/2BPp3/2N5/PPP2PPP/R2QK1NR b KQkq - 3 5"
+    },
+    {
+      "move": "Bxf6",
+      "reason": "Exchanging the bishop for the knight relinquishes control of the dark squares and central tension.",
+      "better_move": "O-O",
+      "type": "strategic",
+      "fen": "rnbqk2r/pp2bppp/2p1pn2/6B1/2BPp3/2N4N/PPP2PPP/R2QK2R w KQkq - 2 7"
+    },
+    {
+      "move": "Bxd4",
+      "reason": "This move allows White to consolidate their central control and develop a potential attack.",
+      "better_move": "Qxd4",
+      "type": "strategic",
+      "fen": "rnbqk2r/pp3ppp/2p1pb2/8/2BPN3/7N/PPP2PPP/R2QK2R b KQkq - 0 8"
+    },
+    {
+      "move": "Qg4",
+      "reason": "This move unnecessarily exposes the queen, making it vulnerable to attacks from minor pieces.",
+      "better_move": "Nhg5",
+      "type": "strategic",
+      "fen": "rnbq1rk1/pp3ppp/2p1p3/8/2BbN3/7N/PPP2PPP/R2Q1RK1 w - - 2 10"
+    },
+    {
+      "move": "e5",
+      "reason": "A tactical blunder that exposes the e5 pawn without adequate support, allowing White to capitalize tactically.",
+      "better_move": "f5",
+      "type": "tactical",
+      "fen": "rnbq1rk1/pp3ppp/2p1p3/8/2BbN1Q1/7N/PPP2PPP/R4RK1 b - - 3 10"
+    }
+  ],
+  "themes": [
+    "central control",
+    "piece activity",
+    "pawn structure",
+    "development"
+  ],
+  "recommendations": [
+    "Focus on controlling the center with pawns and active piece placements.",
+    "Avoid unnecessary piece exchanges that weaken your control or structure.",
+    "Develop pieces harmoniously, ensuring they support each other and maintain flexibility.",
+    "Be cautious of tactical threats when moving exposed pieces like the queen early in the game."
+  ]
+}

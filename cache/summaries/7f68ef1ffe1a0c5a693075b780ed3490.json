@@ -1,0 +1,51 @@
+{
+  "opening": "Larsen's Opening (b3)",
+  "key_mistakes": [
+    {
+      "move": "19. c4",
+      "reason": "This move weakens the d4 pawn and allows Black to gain a strong central pawn structure.",
+      "better_move": "Nh4",
+      "type": "strategic"
+    },
+    {
+      "move": "25. Re1",
+      "reason": "Fails to address the threat of ...e4 and leaves the bishop on b2 vulnerable.",
+      "better_move": "Ng5",
+      "type": "strategic"
+    },
+    {
+      "move": "33. Nxe4",
+      "reason": "This move recaptures with the wrong piece, allowing Black to maintain pressure.",
+      "better_move": "dxe4",
+      "type": "tactical"
+    },
+    {
+      "move": "37. Be2",
+      "reason": "Retreating the bishop loses control of the center and fails to create counterplay.",
+      "better_move": "h4",
+      "type": "strategic"
+    },
+    {
+      "move": "52. e3",
+      "reason": "This move allows Black to create a passed pawn and opens up the position favorably for Black.",
+      "better_move": "Rd2",
+      "type": "strategic"
+    },
+    {
+      "move": "59. Ra2",
+      "reason": "A passive move that fails to capitalize on the opportunity to retaliate with Qxe8+.",
+      "better_move": "Qxe8+",
+      "type": "tactical"
+    }
+  ],
+  "themes": [
+    "Opening principles: Control the center and develop pieces effectively.",
+    "Pawn structure: Avoid creating weaknesses that can be exploited.",
+    "Counterplay: Look for active moves that challenge the opponent's setup."
+  ],
+  "recommendations": [
+    "Focus on controlling the center and developing your pieces efficiently in the opening.",
+    "Avoid creating unnecessary pawn weaknesses that can be targeted by your opponent.",
+    "Look for opportunities to challenge your opponent's position with active moves."
+  ]
+}

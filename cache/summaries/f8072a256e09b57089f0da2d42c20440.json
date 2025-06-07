@@ -1,0 +1,66 @@
+{
+  "opening": "Queen's Pawn Opening",
+  "key_mistakes": [
+    {
+      "move": "Bf5",
+      "reason": "The move Bf5 allows White to increase pressure on the center and potentially exploit weak squares.",
+      "better_move": "Be6",
+      "type": "strategic",
+      "fen": "rn1qkb1r/ppp1pppp/5n2/3pN3/3P1Bb1/8/PPP1PPPP/RN1QKB1R b KQkq - 5 4"
+    },
+    {
+      "move": "Nh5",
+      "reason": "Moving the knight to the edge of the board reduces its influence and allows White to gain a stronger position.",
+      "better_move": "h5",
+      "type": "strategic",
+      "fen": "rn1qkb1r/ppp1pppp/5n2/3pNb2/3P1B2/8/PPP1PPPP/RN1QKB1R w KQkq - 6 5"
+    },
+    {
+      "move": "Nxd4",
+      "reason": "This allows White to capture and consolidate their central pawn structure while gaining a tempo.",
+      "better_move": "e6",
+      "type": "tactical",
+      "fen": "r2qkb1r/ppp1p1pp/5p2/3p3n/3n2P1/3P1P2/PP1BP2P/RN1QKB1R b KQkq - 0 9"
+    },
+    {
+      "move": "Bc3",
+      "reason": "Moving the bishop allows Black to gain material advantage and improve their position.",
+      "better_move": "e3",
+      "type": "tactical",
+      "fen": "r2qkb1r/ppp3pp/5p2/3pp2P/3n4/3P1P2/PP1BP2P/RN1QKB1R w KQkq - 0 11"
+    },
+    {
+      "move": "Qa4",
+      "reason": "This move exposes the queen to attack without significant gain, allowing Black to consolidate.",
+      "better_move": "a4",
+      "type": "strategic",
+      "fen": "1k1r1r2/1pp4p/p3qp2/1n2p2P/Q2pN1qP/P2P1B2/1P2P3/R3K2R w KQ - 2 23"
+    },
+    {
+      "move": "Kc8",
+      "reason": "Moving the king to c8 leaves it vulnerable to potential discovered attacks and weakens Black's pawn structure.",
+      "better_move": "Rf8",
+      "type": "strategic",
+      "fen": "1k5r/1ppR3p/p7/5p1P/1PP1p2P/P7/4B3/4K3 b - - 1 34"
+    },
+    {
+      "move": "Rxf5",
+      "reason": "Capturing the pawn with the rook exposes the rook to attacks and disrupts Black's defensive setup.",
+      "better_move": "Kf2",
+      "type": "tactical",
+      "fen": "2k3r1/1pp2R1p/p7/5p1P/1PP1p2P/P7/4B3/4K3 w - - 4 36"
+    }
+  ],
+  "themes": [
+    "Center Control",
+    "Piece Activity",
+    "King Safety",
+    "Rook Activity"
+  ],
+  "recommendations": [
+    "Focus on controlling the center of the board to restrict your opponent's movement.",
+    "Avoid moving pieces to the edge of the board where their influence is limited.",
+    "Keep your king safe by maintaining a strong pawn structure and avoiding unnecessary exposure.",
+    "Coordinate your rooks to control open files and support your overall strategy."
+  ]
+}

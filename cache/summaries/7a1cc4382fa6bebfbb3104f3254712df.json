@@ -1,0 +1,36 @@
+{
+  "opening": "Queen's Gambit",
+  "key_mistakes": [
+    {
+      "move": "Qd3",
+      "reason": "Moving the queen early exposed it to attack without gain, and it did not contribute to development.",
+      "better_move": "Ne5",
+      "type": "strategic",
+      "fen": "rn1qkb1r/pp2pppp/2p2n2/3p4/2PP2b1/2N2N2/PP2PPPP/R1BQKB1R w KQkq - 4 5"
+    },
+    {
+      "move": "h3",
+      "reason": "This move weakened the pawn structure and did not address the threats on the board.",
+      "better_move": "e4",
+      "type": "strategic",
+      "fen": "rn1qk2r/pp3ppp/2pbp3/3p4/2PP2n1/2NQ4/PP2PPPP/R1B1KB1R w KQkq - 0 8"
+    },
+    {
+      "move": "Rxe1",
+      "reason": "Recapturing with the rook instead of the knight allowed the opponent to maintain significant material advantage.",
+      "better_move": "Nd5",
+      "type": "tactical",
+      "fen": "3rr1k1/ppbn1pp1/2p4p/8/3P2B1/2NQ3P/PP3PP1/4qRK1 w - - 0 20"
+    }
+  ],
+  "themes": [
+    "Early queen development",
+    "Pawn structure weaknesses",
+    "Material imbalance"
+  ],
+  "recommendations": [
+    "Avoid moving the queen early in the game unless it provides a clear advantage or threat.",
+    "Focus on developing minor pieces and controlling the center before making pawn moves that could weaken your structure.",
+    "Be cautious with recaptures, especially when they result in a significant loss of material."
+  ]
+}

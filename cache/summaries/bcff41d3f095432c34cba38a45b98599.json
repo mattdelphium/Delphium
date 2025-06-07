@@ -1,0 +1,52 @@
+{
+  "opening": "Caro-Kann Defense",
+  "key_mistakes": [
+    {
+      "move": "c6",
+      "reason": "This move is an inaccuracy because it doesn't challenge the center immediately and allows White to develop a strong pawn center.",
+      "better_move": "e5",
+      "type": "strategic",
+      "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1"
+    },
+    {
+      "move": "exd5",
+      "reason": "Exchanging pawns here allows Black to equalize the central pawn structure too easily. White could have maintained more pressure by advancing the pawn.",
+      "better_move": "e5",
+      "type": "strategic",
+      "fen": "rnbqkbnr/pp2pppp/2p5/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3"
+    },
+    {
+      "move": "Qxd4",
+      "reason": "This blunder loses the queen for insufficient compensation, as White can capture the queen and maintain a winning position.",
+      "better_move": "b4",
+      "type": "tactical",
+      "fen": "2r2rk1/4bppp/pq2pn2/1p1p2B1/3n4/1NPB3P/PPQ2PP1/R4RK1 b - - 0 16"
+    },
+    {
+      "move": "Bxh7+",
+      "reason": "An unsound sacrifice that doesn't lead to a strong attack or material gain.",
+      "better_move": "cxd4",
+      "type": "tactical",
+      "fen": "2r2rk1/4bppp/p3pn2/1p1p2B1/3q4/2B4P/PPQ2PP1/R4RK1 w - - 0 17"
+    },
+    {
+      "move": "f6",
+      "reason": "This move allows Black to easily blockade the pawn and target it later without real counterplay.",
+      "better_move": "Kg6",
+      "type": "endgame strategic",
+      "fen": "8/8/8/5PK1/8/5k2/8/8 w - - 1 53"
+    }
+  ],
+  "themes": [
+    "pawn structure",
+    "endgame technique",
+    "exchange sacrifices",
+    "king safety"
+  ],
+  "recommendations": [
+    "Focus on controlling the center early in the opening to prevent opponent counterplay.",
+    "Avoid unnecessary pawn exchanges that give the opponent equal central control.",
+    "In the endgame, prioritize advancing your king and pawns together to create winning chances.",
+    "When ahead in material, simplify the position by exchanging pieces, not pawns."
+  ]
+}

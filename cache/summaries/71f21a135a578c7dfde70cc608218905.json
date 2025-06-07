@@ -1,0 +1,66 @@
+{
+  "opening": "Queen's Gambit",
+  "key_mistakes": [
+    {
+      "move": "6. ... e5",
+      "reason": "The move e5 weakens the d5 pawn without developing any pieces, allowing White to seize control of the center.",
+      "better_move": "Bf5",
+      "type": "strategic",
+      "fen": "rnbqkbnr/pp2pppp/2p5/3p4/2PP4/4P3/PP3PPP/RNBQKBNR b KQkq - 0 3"
+    },
+    {
+      "move": "7. Nc3",
+      "reason": "White missed the opportunity to capture the pawn on e5, which would have given a material advantage.",
+      "better_move": "dxe5",
+      "type": "tactical",
+      "fen": "rnbqkbnr/pp3ppp/2p5/3pp3/2PP4/4P3/PP3PPP/RNBQKBNR w KQkq - 0 4"
+    },
+    {
+      "move": "17. Be2",
+      "reason": "This move is too passive and misses the opportunity to apply pressure on the e5 pawn.",
+      "better_move": "Bg5",
+      "type": "strategic",
+      "fen": "rn1qk2r/pp3ppp/2p2n2/3p4/1bPP4/2N2Q1P/PP2BPP1/R1B1K2R w KQkq - 1 9"
+    },
+    {
+      "move": "18. ... Ne4",
+      "reason": "This move places the knight on an unstable square and allows White to consolidate its position.",
+      "better_move": "dxc4",
+      "type": "strategic",
+      "fen": "rn1qk2r/pp3ppp/2p2n2/3p4/1bPP4/2N2Q1P/PP2BPP1/R1B1K2R b KQkq - 2 9"
+    },
+    {
+      "move": "20. ... Nxc3",
+      "reason": "Capturing with the knight allows White to strengthen their pawn structure and opens the b-file for the rook.",
+      "better_move": "Bxc3",
+      "type": "strategic",
+      "fen": "rn1qk2r/pp3ppp/2p5/3p4/1bPPn3/2N2Q1P/PP2BPP1/R1B2RK1 b kq - 4 10"
+    },
+    {
+      "move": "22. ... Bd6",
+      "reason": "This blunder loses material by allowing the capture of the d5 pawn with tempo.",
+      "better_move": "Be7",
+      "type": "tactical",
+      "fen": "rn1qk2r/pp3ppp/2p5/3p4/1bPP4/2P2Q1P/P3BPP1/R1B2RK1 b kq - 0 11"
+    },
+    {
+      "move": "23. cxd5",
+      "reason": "White misses an opportunity to put more pressure on the black position by playing Rb1, which could threaten to win the b7 pawn.",
+      "better_move": "Rb1",
+      "type": "strategic",
+      "fen": "rn1qk2r/pp3ppp/2pb4/3p4/2PP4/2P2Q1P/P3BPP1/R1B2RK1 w kq - 1 12"
+    }
+  ],
+  "themes": [
+    "central control",
+    "pawn structure",
+    "development",
+    "tactical awareness"
+  ],
+  "recommendations": [
+    "Focus on developing pieces actively during the opening phase to control the center.",
+    "Avoid unnecessary pawn moves that weaken your position without gaining compensating advantages.",
+    "Look for tactical opportunities and threats from your opponent to gain material or positional advantages.",
+    "Consider the implications of each move on your overall pawn structure and piece coordination."
+  ]
+}

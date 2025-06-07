@@ -1,0 +1,77 @@
+{
+  "opening": "Queen's Pawn Opening",
+  "key_mistakes": [
+    {
+      "move": "Nbd2",
+      "reason": "Allowed significant material loss and worsened the position.",
+      "better_move": "Qb3",
+      "type": "strategic"
+    },
+    {
+      "move": "Rc1",
+      "reason": "Did not address the threat and worsened the position.",
+      "better_move": "Rb1",
+      "type": "strategic"
+    },
+    {
+      "move": "Qa5",
+      "reason": "Missed an opportunity to maintain pressure on the opponent.",
+      "better_move": "Qb4",
+      "type": "strategic"
+    },
+    {
+      "move": "Ne5",
+      "reason": "Failed to improve the position and lost tempo.",
+      "better_move": "Bd3",
+      "type": "strategic"
+    },
+    {
+      "move": "Nxc6",
+      "reason": "Allowed the opponent to consolidate and gain a material advantage.",
+      "better_move": "Bd3",
+      "type": "strategic"
+    },
+    {
+      "move": "Bg2",
+      "reason": "Blundered a piece, leading to a significant material disadvantage.",
+      "better_move": "Bd3",
+      "type": "blunder"
+    },
+    {
+      "move": "Qxc8+",
+      "reason": "Traded into a losing position rather than seeking counterplay.",
+      "better_move": "Qd3",
+      "type": "blunder"
+    },
+    {
+      "move": "Rc8",
+      "reason": "Failed to secure the king, leading to further exposure.",
+      "better_move": "O-O",
+      "type": "blunder"
+    },
+    {
+      "move": "Ke3",
+      "reason": "Exposed the king further, allowing for decisive tactics by the opponent.",
+      "better_move": "Kd3",
+      "type": "blunder"
+    },
+    {
+      "move": "Ke1",
+      "reason": "Continued to expose the king, leading to eventual checkmate.",
+      "better_move": "Rf1",
+      "type": "blunder"
+    }
+  ],
+  "themes": [
+    "Poor king safety",
+    "Inadequate piece development",
+    "Material blunders",
+    "Inaccurate exchanges"
+  ],
+  "recommendations": [
+    "Focus on controlling the center early in the game.",
+    "Ensure king safety by castling promptly.",
+    "Avoid unnecessary piece exchanges that result in material loss.",
+    "Develop pieces to active squares to increase their effectiveness."
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "opening": "Queen's Pawn Opening (1. d4)",
+  "key_mistakes": [
+    {
+      "move": "a6",
+      "reason": "This move doesn't directly address the immediate pressure on the knight on c6 and allows White to capture and double Black's pawns.",
+      "better_move": "Bd7",
+      "type": "strategic",
+      "fen": "r2qkb1r/ppp1pppp/2n2n2/1B1p1b2/3P1B2/4PN2/PPP2PPP/RN1QK2R b KQkq - 2 5"
+    },
+    {
+      "move": "Ne5",
+      "reason": "Moving the knight to e5 allows Black to develop counterplay, but it weakens the control over the center and the d4 pawn.",
+      "better_move": "c4",
+      "type": "strategic",
+      "fen": "r2qkb1r/2p1pppp/p1p2n2/3p1b2/3P1B2/4PN2/PPP2PPP/RN1QK2R w KQkq - 0 7"
+    },
+    {
+      "move": "Bd7",
+      "reason": "This move is passive and doesn't put enough pressure on White's center. It also blocks the queen's defense of the b8 square.",
+      "better_move": "Qb8",
+      "type": "strategic",
+      "fen": "r2qkb1r/2pbbppp/p1p2n2/3pN3/3P1B2/4P3/PP3PPP/RN1QK2R b KQkq - 1 7"
+    },
+    {
+      "move": "e6",
+      "reason": "This move weakens Black's pawn structure and fails to develop any pieces actively, allowing White to gain initiative.",
+      "better_move": "g6",
+      "type": "strategic",
+      "fen": "r2qkb1r/2pbpppp/p1p1pn2/3pN3/2PP1B2/4P3/PP3PPP/RN1QK2R b KQkq - 0 8"
+    },
+    {
+      "move": "Be7",
+      "reason": "This is a blunder because it allows White to increase pressure on the f6 knight, leading to tactical complications.",
+      "better_move": "h5",
+      "type": "tactical",
+      "fen": "r2qkb1r/2pb1ppp/p1p1pn2/2PpN3/3P1B2/4P3/PP3PPP/RN1QK2R b KQkq - 0 9"
+    },
+    {
+      "move": "O-O",
+      "reason": "Castling kingside exposes Black's king to a pawn storm and tactical threats, especially with White's pieces aimed at the kingside.",
+      "better_move": "Nc3",
+      "type": "strategic",
+      "fen": "r2qk2r/2pbbppp/p1p1pn2/2PpN3/3P1B2/4P3/PP3PPP/RN1QK2R w KQkq - 1 10"
+    },
+    {
+      "move": "h6",
+      "reason": "This move weakens the kingside and does not contribute to Black's development or defense.",
+      "better_move": "O-O",
+      "type": "strategic",
+      "fen": "r2qk2r/2pbbppp/p1p1pn2/2PpN3/3P1B2/4P3/PP3PPP/RN1Q1RK1 b kq - 2 10"
+    },
+    {
+      "move": "g5",
+      "reason": "Pushing the g-pawn leaves Black's kingside very exposed and allows White's pieces to infiltrate.",
+      "better_move": "O-O",
+      "type": "strategic",
+      "fen": "r2qk2r/2pbbpp1/p1p1pn1p/2PpN3/3P1B2/4P2P/PP3PP1/RN1Q1RK1 b kq - 0 11"
+    },
+    {
+      "move": "g4",
+      "reason": "This pawn push leads to further weakening of Black's kingside and allows White to open lines after hxg4.",
+      "better_move": "Ng8",
+      "type": "tactical",
+      "fen": "r2qk2r/2pbbp2/p1p1pn2/2PpN1pp/3P4/4P2P/PP3PPB/RN1Q1RK1 b kq - 0 13"
+    },
+    {
+      "move": "Bxe5",
+      "reason": "Capturing the e5 pawn allows Black to gain control of the open d-file and increase pressure on White's position.",
+      "better_move": "Qf3",
+      "type": "strategic",
+      "fen": "r2qk2r/2pbbp2/p1p1p3/2Pp4/3P2b1/4P3/PP1N1PP1/R4RK1 b kq - 0 17"
+    },
+    {
+      "move": "Qd7",
+      "reason": "Moving the queen to d7 doesn't address the issues with Black's position and leaves the king vulnerable.",
+      "better_move": "Kd7",
+      "type": "strategic",
+      "fen": "r2qk2B/2p1bp2/p1p5/2Pp4/3P2b1/4P3/PP1N1PP1/R4RK1 b q - 0 18"
+    },
+    {
+      "move": "Rfb1",
+      "reason": "This move does not improve White's position significantly and misses an opportunity to apply pressure with b5.",
+      "better_move": "b5",
+      "type": "strategic",
+      "fen": "2kr3B/2pqbp2/p1p5/2Pp4/1P1P2b1/4P3/P2N1PP1/R4RK1 w - - 1 20"
+    }
+  ],
+  "themes": [
+    "Pawn structure",
+    "King safety",
+    "Development",
+    "Opening principles"
+  ],
+  "recommendations": [
+    "Focus on developing pieces efficiently in the opening phase.",
+    "Avoid unnecessary pawn moves that weaken your king's position.",
+    "Pay attention to pawn structure and control of the center.",
+    "Try to foresee tactical threats and avoid moving pieces into vulnerable positions."
+  ]
+}

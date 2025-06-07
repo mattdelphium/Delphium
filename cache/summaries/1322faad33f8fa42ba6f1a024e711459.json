@@ -1,0 +1,77 @@
+{
+  "opening": "Caro-Kann Defense",
+  "key_mistakes": [
+    {
+      "move": "Be7",
+      "reason": "Allows a strong attack; h6 would have been better to challenge the pinned bishop.",
+      "better_move": "h6",
+      "type": "strategic"
+    },
+    {
+      "move": "Bxf6",
+      "reason": "Gives up a powerful bishop for a knight, deteriorating the pawn structure.",
+      "better_move": "O-O",
+      "type": "strategic"
+    },
+    {
+      "move": "Qb6",
+      "reason": "Does not apply enough pressure; better to improve the position of the bishop.",
+      "better_move": "Bg5",
+      "type": "strategic"
+    },
+    {
+      "move": "Rac8",
+      "reason": "Misses an opportunity to challenge the center with a pawn break.",
+      "better_move": "e5",
+      "type": "strategic"
+    },
+    {
+      "move": "Bf6",
+      "reason": "Allows White to gain tempo and improve position.",
+      "better_move": "Nf5",
+      "type": "strategic"
+    },
+    {
+      "move": "Ne7",
+      "reason": "Misses a tactical opportunity to capture a piece.",
+      "better_move": "Bxd4",
+      "type": "tactical"
+    },
+    {
+      "move": "Rec2",
+      "reason": "A blunder that allows Black to win material with a tactical sequence.",
+      "better_move": "Qc1",
+      "type": "tactical"
+    },
+    {
+      "move": "Qxd4",
+      "reason": "A blunder that allows a strong counterattack.",
+      "better_move": "Nf5",
+      "type": "tactical"
+    },
+    {
+      "move": "Bf6",
+      "reason": "Misplaces a piece leading to a vulnerable position.",
+      "better_move": "Nf5",
+      "type": "strategic"
+    },
+    {
+      "move": "Kg7",
+      "reason": "Unnecessary king move that weakens the position.",
+      "better_move": "f6",
+      "type": "strategic"
+    }
+  ],
+  "themes": [
+    "pawn structure",
+    "piece activity",
+    "king safety",
+    "control of the center"
+  ],
+  "recommendations": [
+    "Focus on maintaining a strong pawn structure and avoid unnecessary exchanges.",
+    "Ensure your pieces are active and well-coordinated.",
+    "Pay attention to king safety and avoid leaving the king exposed.",
+    "Control the center consistently to maintain an advantage."
+  ]
+}

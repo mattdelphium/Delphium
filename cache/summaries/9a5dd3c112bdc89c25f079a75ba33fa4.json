@@ -1,0 +1,66 @@
+{
+  "opening": "Queen's Gambit Declined",
+  "key_mistakes": [
+    {
+      "move": "Nf3",
+      "reason": "Delaying the development of the bishop and blocking the f-pawn.",
+      "better_move": "e3",
+      "type": "strategic",
+      "fen": "rnbqkbnr/pp2pppp/2p5/3p4/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3"
+    },
+    {
+      "move": "cxd5",
+      "reason": "Opening the center prematurely and losing tempo.",
+      "better_move": "Ne5",
+      "type": "strategic",
+      "fen": "rn1qkbnr/pp2pppp/2p5/3p4/2PP2b1/5N2/PP2PPPP/RNBQKB1R w KQkq - 2 4"
+    },
+    {
+      "move": "exf3",
+      "reason": "Capturing away from the center and weakening the pawn structure.",
+      "better_move": "Qxb7",
+      "type": "strategic",
+      "fen": "rn1qkbnr/pp2pppp/8/3p4/3P2b1/1Q3b2/PP2PPPP/RNB1KB1R w KQkq - 0 6"
+    },
+    {
+      "move": "Bb5+",
+      "reason": "Checking aimlessly and losing the initiative.",
+      "better_move": "Qa4+",
+      "type": "strategic",
+      "fen": "rn1qkbnr/p3pppp/1p2p3/3p4/3P4/1QN2P2/PP3PPP/R1B1KB1R w KQkq - 0 8"
+    },
+    {
+      "move": "Bf4",
+      "reason": "Allowing black to consolidate and develop without pressure.",
+      "better_move": "Ba6",
+      "type": "strategic",
+      "fen": "r2qkbnr/p2n1ppp/1p2p3/1B1p4/3P4/1QN2P2/PP3PPP/R1B1K2R w KQkq - 2 9"
+    },
+    {
+      "move": "Rc1",
+      "reason": "Missing the opportunity to activate the rook on the seventh rank.",
+      "better_move": "Rc7",
+      "type": "strategic",
+      "fen": "2q2rk1/p2nbppp/1p2pn2/1B1p4/3P1B2/1Q3P2/PP2NPPP/5RK1 w - - 0 14"
+    },
+    {
+      "move": "Ba6",
+      "reason": "Missing the opportunity to promote the pawn.",
+      "better_move": "b8=Q",
+      "type": "tactical",
+      "fen": "5rk1/pP2qppp/4pn2/1B1p4/5B2/1Q3P2/PP2NPPP/6K1 w - - 0 20"
+    }
+  ],
+  "themes": [
+    "center control",
+    "pawn structure",
+    "piece activity",
+    "initiative"
+  ],
+  "recommendations": [
+    "Focus on developing pieces actively and controlling the center.",
+    "Avoid unnecessary exchanges that weaken your pawn structure.",
+    "Utilize open files and ranks to increase pressure on your opponent.",
+    "Prioritize moves that enhance piece coordination and maintain initiative."
+  ]
+}

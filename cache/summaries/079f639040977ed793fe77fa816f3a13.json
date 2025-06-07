@@ -1,0 +1,89 @@
+{
+  "opening": "King's Pawn Opening",
+  "key_mistakes": [
+    {
+      "move": "2. c6",
+      "reason": "Passive pawn move that doesn't challenge the center.",
+      "better_move": "2. e5",
+      "type": "strategic"
+    },
+    {
+      "move": "3. Bc4",
+      "reason": "Develops the bishop but misses the opportunity to control the center.",
+      "better_move": "3. d4",
+      "type": "strategic"
+    },
+    {
+      "move": "7. Bb3",
+      "reason": "Retreats the bishop unnecessarily.",
+      "better_move": "7. Bb5+",
+      "type": "tactical"
+    },
+    {
+      "move": "13. Be3",
+      "reason": "Allows opponent's bishop more activity without gaining much.",
+      "better_move": "13. h3",
+      "type": "strategic"
+    },
+    {
+      "move": "15. O-O",
+      "reason": "King safety is compromised when the opponent has active pieces.",
+      "better_move": "15. h3",
+      "type": "strategic"
+    },
+    {
+      "move": "17. Nbd2",
+      "reason": "Misplaces the knight and doesn't address threats.",
+      "better_move": "17. h3",
+      "type": "strategic"
+    },
+    {
+      "move": "19. h3",
+      "reason": "Too late to prevent the attack on the bishop.",
+      "better_move": "19. c3",
+      "type": "strategic"
+    },
+    {
+      "move": "47. Rxe5",
+      "reason": "Captures with the wrong piece, leading to unfavorable exchanges.",
+      "better_move": "47. dxe5",
+      "type": "tactical"
+    },
+    {
+      "move": "49. Qg2",
+      "reason": "Misplaces the queen, missing direct threats.",
+      "better_move": "49. Kg2",
+      "type": "strategic"
+    },
+    {
+      "move": "65. Rb1",
+      "reason": "Fails to protect critical pieces and loses material.",
+      "better_move": "65. Rf1",
+      "type": "strategic"
+    },
+    {
+      "move": "67. Re2",
+      "reason": "Blunder that allows a decisive attack.",
+      "better_move": "67. Qf2",
+      "type": "tactical"
+    },
+    {
+      "move": "69. Qf1",
+      "reason": "Blunder that results in a significant material loss.",
+      "better_move": "69. Bxg6",
+      "type": "tactical"
+    }
+  ],
+  "themes": [
+    "central control",
+    "king safety",
+    "piece activity",
+    "exchange strategy"
+  ],
+  "recommendations": [
+    "Focus on controlling the center with pawns and pieces.",
+    "Prioritize king safety, especially in open positions.",
+    "Ensure pieces are active and well-coordinated.",
+    "Evaluate exchanges carefully to avoid unfavorable trades."
+  ]
+}

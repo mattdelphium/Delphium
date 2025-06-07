@@ -1,0 +1,66 @@
+{
+  "opening": "Queen's Pawn Opening",
+  "key_mistakes": [
+    {
+      "move": "Re8",
+      "reason": "Re8 allows White to gain a significant advantage.",
+      "better_move": "Kf8",
+      "type": "strategic"
+    },
+    {
+      "move": "Bf8",
+      "reason": "Bf8 allows White to dominate the position.",
+      "better_move": "Kf8",
+      "type": "strategic"
+    },
+    {
+      "move": "Rg7",
+      "reason": "Rg7 weakens the kingside and allows White to build a strong attack.",
+      "better_move": "Nac4",
+      "type": "strategic"
+    },
+    {
+      "move": "Bh6",
+      "reason": "Bh6 blunders the advantage by not continuing the attack effectively.",
+      "better_move": "Rg3",
+      "type": "strategic"
+    },
+    {
+      "move": "Qe7",
+      "reason": "Qe7 is a blunder that allows White to increase their advantage.",
+      "better_move": "Rd7",
+      "type": "strategic"
+    },
+    {
+      "move": "Qxg7",
+      "reason": "Qxg7 leads to a severe disadvantage.",
+      "better_move": "Bxg7",
+      "type": "strategic"
+    },
+    {
+      "move": "Nd7",
+      "reason": "Nd7 blunders into a losing position.",
+      "better_move": "Qh6",
+      "type": "tactical"
+    },
+    {
+      "move": "Bh7+",
+      "reason": "Bh7+ misses a forced checkmate.",
+      "better_move": "Bf7#",
+      "type": "tactical"
+    }
+  ],
+  "themes": [
+    "King safety",
+    "Development",
+    "Center control",
+    "Tactical blunders",
+    "Blunder exploitation"
+  ],
+  "recommendations": [
+    "Focus on king safety and avoid unnecessary weaknesses in the pawn structure.",
+    "Develop pieces harmoniously and avoid unnecessary piece movements.",
+    "Watch for tactical opportunities and threats, especially with vulnerable kings.",
+    "Look for forcing moves that can lead to checkmate or significant material gain."
+  ]
+}

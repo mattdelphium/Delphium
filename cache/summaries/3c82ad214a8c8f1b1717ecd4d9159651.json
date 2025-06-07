@@ -1,0 +1,55 @@
+{
+  "opening": "Queen's Pawn Opening",
+  "key_mistakes": [
+    {
+      "move": "3. Nf3",
+      "reason": "Neglects center control and development advantage.",
+      "better_move": "3. e4",
+      "type": "strategic"
+    },
+    {
+      "move": "7. e3",
+      "reason": "Blocks the bishop and delays development.",
+      "better_move": "7. Nc3",
+      "type": "strategic"
+    },
+    {
+      "move": "20. fxg6",
+      "reason": "Allows opponent to gain a strong attack.",
+      "better_move": "20. Nxg6",
+      "type": "tactical"
+    },
+    {
+      "move": "21. Bh6",
+      "reason": "Misplaces the bishop, losing tempo.",
+      "better_move": "21. Ng5",
+      "type": "tactical"
+    },
+    {
+      "move": "25. Ng5",
+      "reason": "Unnecessary piece sacrifice.",
+      "better_move": "25. Qe2",
+      "type": "tactical"
+    },
+    {
+      "move": "27. Nf3",
+      "reason": "Allows opponent to capture a crucial pawn.",
+      "better_move": "27. Qe2",
+      "type": "tactical"
+    }
+  ],
+  "themes": [
+    "center control",
+    "piece development",
+    "pawn structure",
+    "king safety",
+    "tactical awareness"
+  ],
+  "recommendations": [
+    "Focus on controlling the center with pawns and pieces in the opening.",
+    "Develop your pieces towards the center efficiently.",
+    "Ensure king safety by castling early.",
+    "Avoid unnecessary sacrifices; assess tactical opportunities carefully.",
+    "Maintain a strong pawn structure to support your pieces."
+  ]
+}
