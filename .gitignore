@@ -202,4 +202,5 @@ cache/
 pgns/
 **/cache/
 **/pgns/
+**/stockfish/stockfish
 
