@@ -204,10 +204,6 @@ pgns/
 **/pgns/
 **/stockfish/stockfish
 
-# Delphium-specific
-config/settings.py
-config/*.json
-
 # Summaries and analysis output
 cache/
 cache/**/*.pkl
