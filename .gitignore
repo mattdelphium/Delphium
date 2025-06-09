@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+# pkl files
+*.pkl
+
 # Distribution / packaging
 .Python
 build/
@@ -193,3 +196,11 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Ignore everything in any cache or pgns folder
+cache/
+pgns/
+**/cache/
+**/pgns/
+**/stockfish/stockfish
+
