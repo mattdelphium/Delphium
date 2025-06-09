@@ -6,8 +6,8 @@ from config.settings import (
     CHESS_USERNAME
 )
 from fetch.chesscom import fetch_games_from_chesscom
-from analyzer.stockfish import analyze_single_game
-from analyzer.summariser import (
+from analyser.stockfish import analyze_single_game
+from analyser.summariser import (
     summarize_single_game_with_openai,
     summarize_all_games_with_openai,
 )
