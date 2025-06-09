@@ -1,2 +1,4 @@
 python-chess
 openai
+requests
+python-dotenv

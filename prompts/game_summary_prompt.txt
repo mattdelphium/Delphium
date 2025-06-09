@@ -1,0 +1,24 @@
+You are a chess coach AI. Here's Stockfish analysis for one game. Provide a structured JSON summary like this:
+
+{{
+  "opening": "...",
+  "key_mistakes": [
+    {{
+      "move": "...",
+      "reason": "...",
+      "better_move": "...",
+      "type": "strategic/tactical",
+      "fen": "..."
+    }}
+  ],
+  "themes": ["..."],
+  "recommendations": ["..."]
+}}
+
+In your explanations:
+- Clearly describe why each move was bad using natural chess language.
+- Include tactical or strategic consequences (e.g. "lost a pawn", "allowed a fork").
+- Include one FEN per key mistake that captures the board just before the mistake, to help illustrate the error.
+
+Game:
+{game_json}
