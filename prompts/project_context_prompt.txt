@@ -1,0 +1,23 @@
+Prompt to Resume Delphium Chess Analyzer Project:
+
+I'm working on a chess analysis tool called Delphium. It fetches my games from Chess.com, runs Stockfish to analyze them, and uses OpenAI (GPT-4o) to summarize individual games and identify overall patterns.
+
+The project is structured with modules like fetch/chesscom.py, analyzer/stockfish.py, and analyzer/summariser.py. I use prompts/single_game_prompt.txt and prompts/global_summary_prompt.txt for prompt templates. There's a .env file with OPENAI_API_KEY and CHESS_USERNAME.
+
+I've already got it working end-to-end — fetching games, analyzing them, caching results, and generating summaries.
+
+I'm now ready to move on to the next phase, which might include:
+
+Improving the output formatting (e.g. markdown or HTML)
+
+Exporting summaries to file
+
+Adding a local web UI
+
+Batch uploading PGNs
+
+Scheduling runs
+
+Or anything else to make the tool more useful or polished.
+
+Please continue with good code structure and clear separation of concerns. Assume I’m using Python 3.11+ and VS Code on Ubuntu.

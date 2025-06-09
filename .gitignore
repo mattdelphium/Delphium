@@ -204,3 +204,16 @@ pgns/
 **/pgns/
 **/stockfish/stockfish
 
+# Delphium-specific
+config/settings.py
+config/*.json
+
+# Summaries and analysis output
+cache/
+cache/**/*.pkl
+cache/summaries/**/*.json
+
+# Ignore any runtime or user-generated prompt files (if you add any later)
+config/prompts/tmp/
+config/prompts/generated_*.json
+
