@@ -3,7 +3,7 @@ import hashlib
 import chess
 import chess.pgn
 import chess.engine
-from config.settings import STOCKFISH_PATH, ENGINE_DEPTH, EVAL_THRESHOLDS
+from config.settings import STOCKFISH_PATH, ENGINE_DEPTH, EVAL_THRESHOLDS, CHESS_USERNAME
 from utils.cache import load_cached_game, save_cached_game
 
 
@@ -27,6 +27,19 @@ def analyze_single_game(game_data, archive_url):
     game_obj = chess.pgn.read_game(io.StringIO(game_data))
     if not game_obj:
         return None
+
+    white = game_obj.headers.get("White", "Unknown")
+    black = game_obj.headers.get("Black", "Unknown")
+
+    if CHESS_USERNAME.lower() == white.lower():
+        player_color = "White"
+        player_to_coach = white
+    elif CHESS_USERNAME.lower() == black.lower():
+        player_color = "Black"
+        player_to_coach = black
+    else:
+        player_color = "Unknown"
+        player_to_coach = CHESS_USERNAME
 
     game_hash = get_game_hash(game_data)
     cached = load_cached_game(game_hash)
@@ -65,7 +78,12 @@ def analyze_single_game(game_data, archive_url):
     result = {
         "source": archive_url,
         "hash": game_hash,
-        "moves": move_data
+        "moves": move_data,
+        "white": white,
+        "black": black,
+        "result": game_obj.headers.get("Result", "*"),
+        "player_color": player_color,
+        "player_to_coach": player_to_coach,
     }
     save_cached_game(game_hash, result)
     print(f"📝 Analyzed + cached game: {game_hash}")
