@@ -3,6 +3,7 @@ from config.settings import (
     SUMMARY_CACHE_DIR,
     START_YEAR,
     END_YEAR,
+    INCLUDE_MONTHS,
     CHESS_USERNAME
 )
 from fetch.chesscom import fetch_games_from_chesscom
@@ -13,7 +14,7 @@ from analyser.summariser import (
 )
 from utils.cache import (
     load_cached_summary,
-    save_cached_summary,
+    save_cached_summary,                                             
 )
 import os
 
@@ -27,6 +28,7 @@ def analyze_all_games():
         CHESS_USERNAME,
         START_YEAR,
         END_YEAR,
+        INCLUDE_MONTHS,
         analyze_single_game
     )
 
