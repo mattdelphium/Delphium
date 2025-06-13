@@ -12,7 +12,7 @@ def fetch_chesscom_archives(username):
         print(f"❌ Failed to fetch archive index: {e}")
         return []
 
-def fetch_games_from_chesscom(username, start_year, end_year, analyze_func):
+def fetch_games_from_chesscom(username, start_year, end_year, months, analyze_func):
     print("📥 Fetching archives...")
     all_results = []
     archive_urls = fetch_chesscom_archives(username)
@@ -20,6 +20,8 @@ def fetch_games_from_chesscom(username, start_year, end_year, analyze_func):
     for archive_url in archive_urls:
         year, month = map(int, archive_url.split("/")[-2:])
         if not (start_year <= year <= end_year):
+            continue
+        if months and month not in months:
             continue
 
         try:

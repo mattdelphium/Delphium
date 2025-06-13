@@ -12,7 +12,10 @@ def load_prompt_template(path):
 
 def summarize_single_game_with_openai(game):
     template = load_prompt_template(PROMPT_SINGLE_PATH)
-    prompt = template.format(game_json=json.dumps(game, indent=2))
+    prompt = template.format(
+        game_json=json.dumps(game, indent=2),
+        player_to_coach=game.get("player_to_coach", "Unknown"),
+        player_color=game.get("player_color", "Unknown"))
 
     try:
         response = client.chat.completions.create(
