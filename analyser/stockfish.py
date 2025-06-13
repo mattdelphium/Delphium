@@ -1,3 +1,4 @@
+# analyser/stockfish.py
 import io
 import hashlib
 import chess
@@ -5,7 +6,6 @@ import chess.pgn
 import chess.engine
 from config.settings import STOCKFISH_PATH, ENGINE_DEPTH, EVAL_THRESHOLDS
 from utils.cache import load_cached_game, save_cached_game
-
 
 def classify_move_quality(eval_diff):
     if eval_diff is None:
@@ -18,21 +18,32 @@ def classify_move_quality(eval_diff):
         return "inaccuracy"
     return "ok"
 
-
 def get_game_hash(pgn_text):
     return hashlib.md5(pgn_text.encode("utf-8")).hexdigest()
 
-
-def analyze_single_game(game_data, archive_url):
+def analyze_single_game(game_data, archive_url, username):
     game_obj = chess.pgn.read_game(io.StringIO(game_data))
     if not game_obj:
         return None
 
     game_hash = get_game_hash(game_data)
-    cached = load_cached_game(game_hash)
+    cached = load_cached_game(username, game_hash)
     if cached:
         print(f"✅ Loaded cached game: {game_hash}")
         return cached
+
+    white = game_obj.headers.get("White", "Unknown")
+    black = game_obj.headers.get("Black", "Unknown")
+
+    if username.lower() == white.lower():
+        player_color = "White"
+        player_to_coach = white
+    elif username.lower() == black.lower():
+        player_color = "Black"
+        player_to_coach = black
+    else:
+        player_color = "Unknown"
+        player_to_coach = username
 
     board = game_obj.board()
     move_data = []
@@ -65,8 +76,13 @@ def analyze_single_game(game_data, archive_url):
     result = {
         "source": archive_url,
         "hash": game_hash,
-        "moves": move_data
+        "moves": move_data,
+        "white": white,
+        "black": black,
+        "result": game_obj.headers.get("Result", "*"),
+        "player_color": player_color,
+        "player_to_coach": player_to_coach,
     }
-    save_cached_game(game_hash, result)
+    save_cached_game(username, game_hash, result)
     print(f"📝 Analyzed + cached game: {game_hash}")
     return result

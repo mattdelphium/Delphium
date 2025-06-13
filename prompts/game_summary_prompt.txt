@@ -1,18 +1,30 @@
 You are a chess coach AI. Here's Stockfish analysis for one game. Provide a structured JSON summary like this:
 
+You are coaching {player_to_coach}, who played as {player_color} in the following game.
+
 {{
-  "opening": "...",
+  "opening": "Queen's Gambit Declined",
   "key_mistakes": [
     {{
-      "move": "...",
-      "reason": "...",
-      "better_move": "...",
-      "type": "strategic/tactical",
-      "fen": "..."
+      "move": "10...Nc6?",
+      "reason": "Blocked in own bishop and allowed White to gain space.",
+      "better_move": "10...c6",
+      "type": "strategic",
+      "fen": "r1bq1rk1/ppp2ppp/2n2n2/3pp3/3P4/2P1PN2/PP3PPP/RNBQKB1R b KQ - 0 10"
+    }},
+    {{
+      "move": "15...Nxe4??",
+      "reason": "Blundered a pawn and opened the king unnecessarily.",
+      "better_move": "15...Nd7",
+      "type": "tactical",
+      "fen": "r2q1rk1/pp2bppp/2n5/3p4/3Pn3/2P1PN2/PP3PPP/R1BQKB1R b KQ - 0 15"
     }}
   ],
-  "themes": ["..."],
-  "recommendations": ["..."]
+  "themes": ["Too eager to trade without justification", "Overextended center pawns"],
+  "recommendations": [
+    "Be more cautious when trading in closed positions.",
+    "Review common pawn structures in Queen's Gambit Declined."
+  ]
 }}
 
 In your explanations:
