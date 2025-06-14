@@ -2,9 +2,6 @@
 from config.settings import (
     MAX_GAMES_TO_SUMMARIZE,
     SUMMARY_CACHE_DIR,
-    START_YEAR,
-    END_YEAR,
-    INCLUDE_MONTHS,
     CHESS_USERNAME
 )
 from fetch.chesscom import fetch_games_from_chesscom
@@ -27,9 +24,7 @@ structured_summaries = []
 def analyze_all_games():
     fetched_games = fetch_games_from_chesscom(
         CHESS_USERNAME,
-        START_YEAR,
-        END_YEAR,
-        INCLUDE_MONTHS,
+        MAX_GAMES_TO_SUMMARIZE,
         lambda game_data, url: analyze_single_game(game_data, url, CHESS_USERNAME)
     )
 
