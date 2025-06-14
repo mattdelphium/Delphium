@@ -20,6 +20,7 @@ import os
 
 all_game_data = []
 structured_summaries = []
+CHESS_USERNAME = CHESS_USERNAME.lower()
 
 def analyze_all_games():
     fetched_games = fetch_games_from_chesscom(

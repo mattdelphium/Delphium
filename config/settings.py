@@ -7,9 +7,6 @@ load_dotenv()
 STOCKFISH_PATH = "./stockfish/stockfish"
 ENGINE_DEPTH = 15
 EVAL_THRESHOLDS = {"blunder": 300, "mistake": 100, "inaccuracy": 50}
-START_YEAR = 2025
-END_YEAR = 2025
-INCLUDE_MONTHS = [5, 6]
 CACHE_DIR = "./cache"
 SUMMARY_CACHE_DIR = os.path.join(CACHE_DIR, "summaries")
 os.makedirs(CACHE_DIR, exist_ok=True)
