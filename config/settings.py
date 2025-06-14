@@ -15,7 +15,7 @@ SUMMARY_CACHE_DIR = os.path.join(CACHE_DIR, "summaries")
 os.makedirs(CACHE_DIR, exist_ok=True)
 os.makedirs(SUMMARY_CACHE_DIR, exist_ok=True)
 
-MAX_GAMES_TO_SUMMARIZE = 20
+MAX_GAMES_TO_SUMMARIZE = 5
 
 # client = OpenAI()
 CHESS_USERNAME = os.getenv("CHESS_USERNAME")

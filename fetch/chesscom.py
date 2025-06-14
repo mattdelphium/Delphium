@@ -12,22 +12,23 @@ def fetch_chesscom_archives(username):
         print(f"❌ Failed to fetch archive index: {e}")
         return []
 
-def fetch_games_from_chesscom(username, start_year, end_year, months, analyze_func):
+def fetch_games_from_chesscom(username, n, analyze_func):
     print("📥 Fetching archives...")
     all_results = []
     archive_urls = fetch_chesscom_archives(username)
+    games_collected = 0
 
-    for archive_url in archive_urls:
-        year, month = map(int, archive_url.split("/")[-2:])
-        if not (start_year <= year <= end_year):
-            continue
-        if months and month not in months:
-            continue
-
+    for archive_url in reversed(archive_urls):
+        if games_collected >= n:
+            break
+        
         try:
             res = requests.get(archive_url, headers={"User-Agent": "Mozilla/5.0"})
             res.raise_for_status()
             games = res.json().get("games", [])
+            games = sorted(games,key=lambda g: g.get("end_time", 0), reverse=True)
+            games_needed = n - games_collected
+            games = games[:games_needed]
 
             with ThreadPoolExecutor(max_workers=4) as executor:
                 futures = []
@@ -42,6 +43,7 @@ def fetch_games_from_chesscom(username, start_year, end_year, months, analyze_fu
                     result = future.result()
                     if result:
                         all_results.append(result)
+                        games_collected += 1
 
         except Exception as e:
             print(f"⚠️ Failed to process {archive_url}: {e}")
