@@ -5,6 +5,7 @@ import Header from './components/Header';
 import HomePage from './pages/HomePage';
 import SummaryPage from './pages/SummaryPage';
 import SettingsPage from './pages/SettingsPage';
+import AboutPage from './pages/AboutPage';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/summary/" element={<SummaryPage />} />
-          <Route path="/about" element={<div>About Page</div>} />
+          <Route path="/about" element={<AboutPage />} />
           <Route path="/settings" element={<SettingsPage />} />
           {/* Add more routes as needed */}
         </Routes>
