@@ -1,143 +1,116 @@
-# ♟️ Delphium – Chess Game Analyzer
+# ♟️ Delphium – Deep Chess Game Insights with LLMs + Stockfish
 
-**Delphium** is a local tool for analyzing your Chess.com games using **Stockfish** and **GPT-4o**, producing structured insights to help you improve.
+**Delphium** is a Python-based chess analysis tool that blends traditional engine evaluation with modern AI summarization. It fetches your recent games from Chess.com, analyzes them with Stockfish, and generates natural language insights using OpenAI. Delphium helps players uncover recurring strategic and tactical patterns across their gameplay.
 
 ---
 
 ## 🚀 Features
 
-- ⬇️ Fetches games directly from Chess.com
-- 🧠 Uses **Stockfish** for move-by-move evaluation
-- 🤖 Summarizes mistakes and patterns using GPT-4o
-- 💾 Caches results for speed and repeat runs
-- 📊 Provides per-game insights and cross-game summaries
+* 🔍 **Automatic PGN fetching** from Chess.com by username
+* 🤖 **Stockfish integration** to identify blunders, inaccuracies, and missed tactics
+* 🧠 **LLM summarization** that captures global patterns across multiple games
+* ✨ **Natural language feedback**: "You tend to overextend knights in the middlegame"
+* ⚡ **Batching + caching** to speed up repeated runs
+* 🔍 **Prompt-driven summaries** for easy customization
 
 ---
 
-## 📦 Installation
+## 📸 Example Global Summary
 
-### 1. Clone the repository
+```
+## 🎯 Recurring Patterns
+Across the analyzed games, a few patterns in your decision-making have emerged:
+
+1. **Queen's Gambit Declined Familiarity**: You frequently play the Queen's Gambit Declined, but struggle with maintaining central control and ensuring solid pawn structures. For example, in multiple instances, premature central pawn breaks lead to weakened structures or tactical vulnerabilities (e.g., Game 3: 22...e5?).
+
+2. **Inactive Queen Usage**: There's a tendency to underutilize your queen, missing opportunities for counterplay. In Game 2, moves like 34...Be6?? highlight missed chances to activate the queen effectively.
+
+3. **Weakening Pawn Structures**:...
+```
+
+---
+
+## 📂 Project Structure
+
+```
+delphium/
+├── analyser/       # Stockfish + LLM summarizer
+├── fetch/          # Chess.com PGN retrieval
+├── prompts/        # Prompt templates for OpenAI
+├── pgns/           # (Optional) local PGNs
+├── utils/          # Helper functions
+├── data/           # Cached analysis
+├── config/         # dotenv settings
+├── main.py         # CLI entry point
+```
+
+---
+
+## 🛠️ Setup Instructions
+
+### 1. Clone the repo
 
 ```bash
-git clone https://github.com/yourusername/delphium.git
+git clone https://github.com/your-username/delphium.git
 cd delphium
 ```
 
-### 2. Set up virtual environment
+### 2. Set up environment
 
 ```bash
-python -m venv .venv
+python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+cp .env.example .env
 ```
 
-### 3. Add your API key and username
+> ⚠️ You'll need an OpenAI API key:
+>
+> ```
+> OPENAI_API_KEY=your-key-here
+> CHESS_USERNAME=your-chesscom-username
+> ```
+Or just use my username if you like: SpuriousWintermute
+### 3. Run the program
 
-Create a `.env` file with the following content:
-
-```env
-# .env
-OPENAI_API_KEY=your-openai-api-key
-CHESS_USERNAME=your-chesscom-username
-```
-
-✅ **Tip:** For sharing, use the `.env.example` file shown below.
-
----
-
-## ⚙️ Example .env file
-
-```env
-# .env.example
-
-# Your OpenAI API key (https://platform.openai.com)
-OPENAI_API_KEY=sk-REPLACE_ME
-
-# Your Chess.com username (lowercase)
-CHESS_USERNAME=your-chesscom-username
-```
-
----
-
-## 🔧 Setup Stockfish
-
-1. Download the [latest Stockfish binary](https://stockfishchess.org/download/).
-2. Place it inside a folder named `stockfish`:
-
-```
-stockfish/stockfish
-```
-
-3. Make sure it is executable:
-
-```bash
-chmod +x stockfish/stockfish
-```
-
----
-
-## 🧠 Customize Prompts
-
-Prompts are stored in the `prompts/` folder:
-
-- `single_game_prompt.txt`: for per-game summaries
-- `global_summary_prompt.txt`: for global trends across games
-
-These use `{{GAME_JSON}}` or `{{STRUCTURED_SUMMARIES}}` placeholders, automatically filled in during runtime.
-
----
-
-## ▶️ Run the Tool
 
 ```bash
 python main.py
 ```
 
-Delphium will:
-- Fetch your games from Chess.com for the configured year range
-- Analyze moves with Stockfish
-- Summarize results with GPT-4o
-- Output a global report at the end
+---
+
+## 🔮 Analyze Your Chess.com Games
+
+Delphium will automatically pull your most recent n games from Chess.com and provide a summarized report of your play.
+
+Number of games to fetch can be configure in settings.py: MAX_GAMES_TO_SUMMARIZE
 
 ---
 
-## 📄 .gitignore
+## 🖥️ Demo
 
-Make sure your `.gitignore` includes:
-
-```gitignore
-# Secrets and system files
-.env
-__pycache__/
-*.pkl
-cache/
-stockfish/stockfish
-```
+![Delphium Terminal Demo](demo.svg)
 
 ---
 
-## 🧪 Example Output
+## 📄 License
 
-```bash
-📥 Fetching games from Chess.com API...
-📝 Analyzed + cached game: 47a3d...
-🤖 Summarizing game 1 of 10...
-✅ Found cached summary: cache/summaries/47a3d....json
-
-🧠 Global Summary from GPT-4o:
-- ♜ Common blunders: hanging pieces in early middlegame
-- 📖 Strategic themes: weak d5 square, premature pawn pushes
-- 🎯 Recommendations: study endgames & positional sacrifices
-```
+MIT License — open for learning, forking, and building upon.
+If you build on Delphium, please credit the original repository 🙏
 
 ---
 
-## 📝 License
+## 💡 Future Ideas
 
-MIT License – free to use, modify, and improve.
+* [ ] Streamlit UI for uploading PGNs and visualizing summaries
+* [ ] Output annotated PGNs with embedded comments
+* [ ] Opening classifier for recurring repertoire weaknesses
+* [ ] Integration with Lichess and other platforms
 
 ---
 
-## ❤️ Contributing
+## 👋 About
 
-If you’d like to contribute improvements (prompt tweaks, visualizations, or UI), feel free to open a pull request or suggestion.
+Built by Matthew Sherriff [mattdelphium] (https://github.com/mattdelphium), a Python and chess enthusiast.
+Designed to explore how LLMs and traditional chess engines can work together to improve player learning.

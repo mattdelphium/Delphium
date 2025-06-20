@@ -1,7 +1,9 @@
 import os
 from dotenv import load_dotenv
+from pathlib import Path
 
-load_dotenv()
+env_path = Path(__file__).resolve().parents[1] / ".env"
+load_dotenv(dotenv_path=env_path)
 
 # Configuration
 STOCKFISH_PATH = "./stockfish/stockfish"
