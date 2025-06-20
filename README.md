@@ -51,7 +51,7 @@ delphium/
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-username/delphium.git
+git clone https://github.com/mattdelphium/delphium.git
 cd delphium
 ```
 
@@ -82,9 +82,9 @@ python main.py
 
 ## 🔮 Analyze Your Chess.com Games
 
-Delphium will automatically pull your most recent n games from Chess.com and provide a summarized report of your play.
+Delphium will automatically pull your most recent games from Chess.com and provide a summarized report of your play.
 
-Number of games to fetch can be configure in settings.py: MAX_GAMES_TO_SUMMARIZE
+Number of games to fetch can be configured in settings.py: MAX_GAMES_TO_SUMMARIZE
 
 ---
 
@@ -107,6 +107,8 @@ If you build on Delphium, please credit the original repository 🙏
 * [ ] Output annotated PGNs with embedded comments
 * [ ] Opening classifier for recurring repertoire weaknesses
 * [ ] Integration with Lichess and other platforms
+* [ ] Improve game analysis to highlight strong moves as well as mistakes
+* [ ] Board UI to visualise specific move feedback
 
 ---
 
