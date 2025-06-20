@@ -112,6 +112,12 @@ If you build on Delphium, please credit the original repository 🙏
 
 ---
 
+🏷️ Topics
+
+chess • openai • stockfish • game-analysis • cli-tool • python • pgn • llm • gpt-4 • chesscom
+
+---
+
 ## 👋 About
 
 Built by Matthew Sherriff [mattdelphium] (https://github.com/mattdelphium), a Python and chess enthusiast.
